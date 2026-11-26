@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Detective Gym · Modals of Deduction · B1 English · Boqkova Teach</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 512 512%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22#fe98c0%22/%3E%3Cstop offset=%221%22 stop-color=%22#3dd0eb%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x=%2216%22 y=%2216%22 width=%22480%22 height=%22480%22 rx=%22112%22 fill=%22url%28#g%29%22 stroke=%22#0d0d0d%22 stroke-width=%2232%22/%3E%3Cpath transform=%22translate%28134.9 115.0%29 scale%280.5492%29%22 fill=%22#0d0d0d%22 fill-rule=%22evenodd%22 d=%22M0,0 L0,527 L257,527 L258,526 L284,525 L285,524 L292,524 L293,523 L311,521 L346,512 L364,505 L378,498 L396,486 L411,472 L423,456 L431,440 L437,421 L437,416 L439,409 L439,398 L440,397 L440,383 L439,382 L438,363 L431,339 L422,322 L413,310 L401,298 L382,285 L359,275 L336,269 L320,267 L319,266 L312,266 L311,265 L303,265 L302,264 L290,264 L286,262 L286,256 L287,255 L319,251 L347,243 L363,236 L377,227 L388,218 L403,199 L411,182 L416,164 L417,151 L418,150 L418,123 L417,122 L416,109 L411,91 L404,76 L393,60 L372,40 L345,24 L313,12 L282,5 L261,3 L260,2 L236,1 L235,0Z M129,307 L130,306 L223,306 L224,307 L247,308 L266,312 L280,317 L297,328 L304,336 L310,347 L313,361 L313,372 L308,390 L301,400 L286,412 L278,416 L257,422 L242,423 L241,424 L130,424 L129,423Z M129,103 L130,102 L216,102 L217,103 L228,103 L229,104 L236,104 L250,107 L271,116 L283,127 L289,137 L292,147 L293,164 L292,165 L291,175 L287,185 L283,191 L273,201 L262,208 L242,215 L226,217 L225,218 L217,218 L216,219 L130,219 L129,218Z%22/%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<meta name="theme-color" content="#fffaf7">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700..800&family=Golos+Text:wght@400..900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root{
+  --bg:#fffaf7; --surface:#fff; --ink:#0d0d0d; --muted:#4d4a4b;
+  --pink:#fe98c0; --green:#80eb3d; --blue:#3dd0eb; --red:#eb583d;
+  --yellow:#ffe14d; --lilac:#c4a5ff;
+  --border:3px solid var(--ink); --radius:18px;
+  --shadow:6px 6px 0 var(--ink); --shadow-sm:4px 4px 0 var(--ink); --shadow-lg:9px 9px 0 var(--ink);
+  --font-display:"Bricolage Grotesque","Golos Text","Arial Black",system-ui,sans-serif;
+  --font-ru:"Golos Text",system-ui,sans-serif;
+  --font-body:"DM Sans","Golos Text",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --max:1120px; color-scheme:light;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.05rem;line-height:1.55;-webkit-font-smoothing:antialiased}
+::selection{background:var(--pink)}
+a{color:inherit}
+button,select{font:inherit;color:inherit}
+.container{max-width:var(--max);margin:0 auto;padding:0 16px}
+.muted{color:var(--muted)}
+.ru{font-family:var(--font-ru)}
+
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 22px;border:var(--border);border-radius:999px;background:var(--pink);font-family:var(--font-display);font-size:1rem;font-weight:800;text-decoration:none;cursor:pointer;box-shadow:var(--shadow-sm);transition:transform .12s,box-shadow .12s}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:var(--shadow)}
+.btn:active{transform:translate(3px,3px);box-shadow:0 0 0 var(--ink)}
+.btn--ghost{background:var(--surface)} .btn--green{background:var(--green)} .btn--blue{background:var(--blue)} .btn--red{background:var(--red)} .btn--yellow{background:var(--yellow)}
+.btn--sm{padding:6px 14px;font-size:.9rem;box-shadow:3px 3px 0 var(--ink)}
+.btn:focus-visible,.nav__link:focus-visible,.tile:focus-visible,.choice:focus-visible{outline:3px dashed var(--ink);outline-offset:4px}
+.icon-btn{border:2px solid var(--ink);border-radius:999px;background:var(--surface);width:38px;height:38px;display:inline-grid;place-items:center;cursor:pointer;font-size:1rem;box-shadow:2px 2px 0 var(--ink)}
+
+.header{position:sticky;top:0;z-index:20;background:var(--bg);border-bottom:var(--border)}
+.header__inner{display:flex;align-items:center;justify-content:space-between;gap:10px 18px;min-height:68px;padding-block:10px;flex-wrap:wrap}
+.brand{padding:4px 12px;border:var(--border);border-radius:10px;background:var(--green);box-shadow:var(--shadow-sm);font-family:var(--font-display);font-size:1.15rem;font-weight:800;letter-spacing:-.02em;text-decoration:none;transform:rotate(-2deg);white-space:nowrap}
+.nav{display:flex;flex-wrap:wrap;gap:4px}
+.nav__link{padding:5px 11px;border:2px solid transparent;border-radius:999px;font-weight:700;text-decoration:none;font-size:.93rem;transition:background .12s,border-color .12s}
+.nav__link:hover{background:var(--surface);border-color:var(--ink)}
+.nav__link.is-active{background:var(--ink);color:var(--bg)}
+.header__tools{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.seg{display:flex;border:var(--border);border-radius:999px;overflow:hidden;background:var(--surface)}
+.seg button{border:0;background:none;padding:5px 12px;font-weight:800;font-family:var(--font-display);cursor:pointer}
+.seg button+button{border-left:2px solid var(--ink)}
+.seg button.is-on{background:var(--blue)}
+.topic-select{padding:6px 12px;border:var(--border);border-radius:999px;background:var(--surface);font-weight:700;cursor:pointer;max-width:200px}
+.xp{padding:5px 12px;border:var(--border);border-radius:999px;background:var(--pink);font-family:var(--font-display);font-weight:800;box-shadow:3px 3px 0 var(--ink);transform:rotate(3deg);white-space:nowrap}
+.xp.bump{animation:bump .4s}
+@keyframes bump{50%{transform:rotate(-4deg) scale(1.2)}}
+
+.marquee{display:flex;overflow:hidden;border-block:var(--border);background:var(--ink);color:var(--green);font-family:var(--font-ru);font-size:clamp(1.1rem,3vw,1.6rem);font-weight:800;white-space:nowrap;user-select:none}
+.marquee__track{display:flex;flex-shrink:0;align-items:center;gap:24px;padding:14px 12px;animation:marquee 45s linear infinite}
+.marquee__star{color:var(--pink)}
+@keyframes marquee{to{transform:translateX(-100%)}}
+@media (prefers-reduced-motion:reduce){.marquee__track{animation:none}html{scroll-behavior:auto}}
+
+.section{padding:56px 0 72px}
+.heading{margin:0 0 12px;font-family:var(--font-display);font-size:clamp(2.4rem,7vw,4.5rem);font-weight:800;line-height:.95;letter-spacing:-.04em}
+.lead{margin:0 0 28px;font-size:1.15rem;font-weight:500;max-width:62ch}
+
+.hero-wrap{padding:48px 0 64px}
+.hero{display:flex;align-items:center;gap:56px;padding:40px;border:var(--border);border-radius:28px;background:var(--surface);box-shadow:var(--shadow-lg)}
+.hero__media{position:relative;flex-shrink:0}
+.hero__avatar{display:grid;place-items:center;width:240px;aspect-ratio:4/5;border:var(--border);border-radius:28px;background:linear-gradient(135deg,var(--green),var(--yellow));box-shadow:var(--shadow-lg);transform:rotate(-3deg);font-family:var(--font-ru);font-size:8.5rem;font-weight:900;line-height:1}
+.hero__sticker{position:absolute;right:-26px;bottom:-20px;padding:9px 16px;border:var(--border);border-radius:999px;background:var(--pink);box-shadow:var(--shadow-sm);font-family:var(--font-display);font-size:1.1rem;font-weight:800;white-space:nowrap;transform:rotate(8deg)}
+.hero__sticker2{position:absolute;left:-26px;top:-16px;padding:6px 14px;border:var(--border);border-radius:999px;background:var(--blue);box-shadow:var(--shadow-sm);font-family:var(--font-ru);font-weight:800;transform:rotate(-10deg);white-space:nowrap}
+.hero__chip{display:inline-block;padding:3px 10px;border:2px solid var(--ink);border-radius:8px;background:var(--pink);font-family:var(--font-display);font-weight:800;font-size:.85rem;box-shadow:3px 3px 0 var(--ink);transform:rotate(-2deg)}
+.hero__title{margin:14px 0 0;font-family:var(--font-display);font-size:clamp(5rem,17vw,11rem);font-weight:800;line-height:.8;letter-spacing:-.06em}
+.hero__lead{max-width:34ch;margin:22px 0 0;font-size:clamp(1.15rem,2.4vw,1.5rem);font-weight:700;line-height:1.3}
+.hero__stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.chip{display:inline-block;padding:3px 13px;border:2px solid var(--ink);border-radius:999px;background:var(--blue);font-size:.92rem;font-weight:700}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px}
+.mode{display:flex;flex-direction:column;border:var(--border);border-radius:var(--radius);background:var(--surface);overflow:hidden;box-shadow:var(--shadow);text-decoration:none;transition:transform .15s,box-shadow .15s}
+.mode:hover{transform:translate(-3px,-3px) rotate(-1deg);box-shadow:var(--shadow-lg)}
+.mode__banner{display:flex;align-items:flex-end;justify-content:space-between;min-height:130px;padding:16px 20px;border-bottom:var(--border);background:var(--c)}
+.mode__emoji{font-size:2.6rem;line-height:1}
+.mode__num{font-family:var(--font-display);font-weight:800;font-size:.9rem;border:2px solid var(--ink);background:var(--surface);border-radius:999px;padding:1px 10px}
+.mode__body{padding:16px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1}
+.mode__title{margin:0;font-family:var(--font-display);font-size:1.75rem;font-weight:800;line-height:.95;letter-spacing:-.03em}
+.mode__sum{margin:0;font-weight:500;flex:1}
+.mode__go{font-family:var(--font-display);font-weight:800}
+
+/* topics strip on home */
+.topics{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:16px;margin-bottom:56px}
+.topic{display:flex;flex-direction:column;gap:2px;padding:14px 16px;border:var(--border);border-radius:16px;background:var(--c);box-shadow:var(--shadow-sm);cursor:pointer;text-align:left;transition:transform .12s,box-shadow .12s}
+.topic:hover{transform:translate(-2px,-2px) rotate(-1deg);box-shadow:var(--shadow)}
+.topic__e{font-size:1.8rem;line-height:1}
+.topic__ru{font-family:var(--font-ru);font-weight:900;font-size:1.25rem;margin-top:6px}
+.topic__en{font-weight:700;font-size:.9rem}
+
+/* gender legend */
+.legend{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:24px}
+.g{display:inline-block;padding:1px 10px;border:2px solid var(--ink);border-radius:999px;font-weight:800;font-size:.8rem;background:var(--gc)}
+
+/* noun list */
+.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-bottom:18px}
+.search{flex:1 1 240px;padding:11px 18px;border:var(--border);border-radius:999px;font:inherit;font-weight:600;background:var(--surface);box-shadow:var(--shadow-sm);outline:none}
+.search:focus{background:#fffbe0}
+.ngrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:18px}
+.tile{position:relative;text-align:left;padding:14px 16px;border:var(--border);border-radius:16px;background:var(--surface);box-shadow:var(--shadow-sm);cursor:pointer;transition:transform .12s,box-shadow .12s;display:flex;flex-direction:column;gap:3px}
+.tile:hover{transform:translate(-2px,-2px) rotate(-.6deg);box-shadow:var(--shadow);background:var(--gc)}
+.tile__e{font-size:2rem;line-height:1.1;min-height:2.2rem}
+.tile__ru{font-family:var(--font-ru);font-weight:800;font-size:1.35rem;line-height:1.1}
+.tile__en{font-weight:600;color:var(--muted);font-size:.92rem}
+.tile:hover .tile__en{color:var(--ink)}
+.tile__tags{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.tile__star{position:absolute;top:10px;right:12px}
+.groupsec{margin-bottom:44px}
+.grouphead{display:flex;align-items:center;gap:12px;margin:0 0 16px;font-family:var(--font-display);font-weight:800;font-size:1.8rem;letter-spacing:-.02em}
+.grouphead .ru{font-weight:900}
+.grouphead .badge{padding:2px 12px;border:var(--border);border-radius:12px;background:var(--c);box-shadow:3px 3px 0 var(--ink);transform:rotate(-2deg)}
+
+/* modal */
+.modal{position:fixed;inset:0;z-index:50;display:none;place-items:center;padding:16px;background:rgba(13,13,13,.45)}
+.modal.is-open{display:grid}
+.modal__box{position:relative;width:min(540px,100%);max-height:92vh;overflow:auto;border:var(--border);border-radius:24px;background:var(--surface);box-shadow:var(--shadow-lg);animation:pop .22s ease}
+@keyframes pop{from{transform:scale(.9) rotate(-2deg);opacity:0}}
+.modal__close{position:absolute;top:14px;right:14px}
+.detail__head{padding:26px 28px 22px;border-bottom:var(--border);background:var(--gc)}
+.detail__e{font-size:3.4rem;line-height:1}
+.detail__ru{margin:8px 0 0;font-family:var(--font-ru);font-size:clamp(2.2rem,8vw,3.2rem);font-weight:900;line-height:1}
+.detail__en{margin:6px 0 0;font-weight:700;font-size:1.15rem}
+.detail__body{padding:22px 28px 28px;display:flex;flex-direction:column;gap:20px}
+.label{font-family:var(--font-display);font-weight:800;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fact{padding:10px 14px;border:2px solid var(--ink);border-radius:12px;background:var(--bg)}
+.fact b{display:block;font-family:var(--font-ru);font-size:1.25rem}
+.fact span{font-weight:700;color:var(--muted);font-size:.85rem}
+.example{padding:14px 16px;border:2px dashed var(--ink);border-radius:14px;background:#fffbe0}
+.example p{margin:0}
+.example .ru{font-weight:700;font-size:1.15rem}
+.note{padding:12px 16px;border:2px solid var(--ink);border-radius:14px;background:var(--lilac);font-weight:600}
+
+/* games */
+.game{max-width:760px;margin:0 auto}
+.game__bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.progress{flex:1 1 200px;height:20px;border:var(--border);border-radius:999px;background:var(--surface);overflow:hidden}
+.progress__fill{height:100%;background:var(--green);border-right:3px solid var(--ink);transition:width .3s;width:0}
+.score{font-family:var(--font-display);font-weight:800;font-size:1.2rem;padding:4px 14px;border:var(--border);border-radius:999px;background:var(--yellow);box-shadow:3px 3px 0 var(--ink)}
+.stage{padding:32px;border:var(--border);border-radius:24px;background:var(--surface);box-shadow:var(--shadow-lg);text-align:center}
+.stage--pink{background:var(--pink)}
+.bigword{font-family:var(--font-ru);font-weight:900;font-size:clamp(2.4rem,9vw,3.8rem);line-height:1;margin:6px 0}
+.bigemoji{font-size:clamp(4rem,14vw,6rem);line-height:1.1}
+.gloss{font-weight:600;color:var(--muted);margin-bottom:20px}
+.choices{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.choices--4{grid-template-columns:repeat(4,1fr)}
+.choice{padding:16px 10px;border:var(--border);border-radius:16px;background:var(--bg);font-family:var(--font-ru);font-size:1.3rem;font-weight:800;cursor:pointer;box-shadow:var(--shadow-sm);transition:transform .1s;line-height:1.15}
+.choice small{display:block;font-family:var(--font-body);font-size:.75rem;font-weight:700;color:var(--muted);margin-top:4px}
+.choice:hover{transform:translate(-2px,-2px);background:var(--yellow)}
+.choice.ok{background:var(--green)} .choice.bad{background:var(--red);animation:shake .35s}
+.choice:disabled{cursor:default}
+@keyframes shake{25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.feedback{min-height:1.8em;margin:16px 0 4px;font-weight:700;font-size:1.05rem}
+.actions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:16px}
+.toggle-row{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:18px}
+.answer{width:100%;max-width:380px;padding:14px 20px;border:var(--border);border-radius:16px;font-family:var(--font-ru);font-size:1.6rem;font-weight:800;text-align:center;outline:none;background:var(--bg)}
+.answer:focus{background:#fffbe0}
+.answer.ok{background:var(--green)} .answer.bad{background:var(--red);animation:shake .35s}
+.kbd{display:flex;flex-direction:column;gap:6px;align-items:center;margin-top:22px}
+.kbd__row{display:flex;gap:5px;flex-wrap:wrap;justify-content:center}
+.key{min-width:36px;height:40px;padding:0 6px;border:2px solid var(--ink);border-radius:9px;background:var(--bg);font-family:var(--font-ru);font-weight:800;font-size:1.05rem;cursor:pointer;box-shadow:2px 2px 0 var(--ink)}
+.key:active{transform:translate(2px,2px);box-shadow:none}
+.key--wide{min-width:70px;background:var(--pink)}
+.sentence{font-family:var(--font-ru);font-size:clamp(1.7rem,6vw,2.6rem);font-weight:900;line-height:1.25;margin:8px 0}
+.blank{display:inline-block;min-width:3.2em;border-bottom:4px solid var(--ink);line-height:1;color:transparent}
+.blank.filled{color:var(--ink);background:var(--green);border-radius:8px 8px 0 0;padding:0 8px}
+.odd{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.odd .choice{display:flex;flex-direction:column;align-items:center;gap:6px;padding:18px 10px}
+.odd .choice .e{font-size:2.4rem;line-height:1}
+
+.flip{perspective:1200px;width:min(440px,100%);margin:0 auto;aspect-ratio:4/3;cursor:pointer}
+.flip__inner{position:relative;width:100%;height:100%;transition:transform .55s cubic-bezier(.3,1.4,.5,1);transform-style:preserve-3d}
+.flip.is-flipped .flip__inner{transform:rotateY(180deg)}
+.flip__face{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:24px;border:var(--border);border-radius:24px;box-shadow:var(--shadow-lg);backface-visibility:hidden;-webkit-backface-visibility:hidden}
+.flip__front{background:var(--gc,var(--pink))}
+.flip__back{background:var(--surface);transform:rotateY(180deg)}
+.flip__big{font-family:var(--font-ru);font-weight:900;font-size:clamp(2.2rem,8vw,3.4rem);line-height:1;text-align:center}
+.flip__hint{font-weight:700;font-size:.9rem;opacity:.7}
+.mini{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;font-family:var(--font-ru);font-weight:700}
+.mini span{padding:2px 10px;border:2px solid var(--ink);border-radius:999px;background:var(--bg);font-size:.95rem}
+
+.mem{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.mcard{aspect-ratio:1/1;perspective:800px;cursor:pointer;border:0;background:none;padding:0}
+.mcard__inner{position:relative;width:100%;height:100%;transition:transform .4s;transform-style:preserve-3d}
+.mcard.up .mcard__inner{transform:rotateY(180deg)}
+.mcard__face{position:absolute;inset:0;display:grid;place-items:center;padding:6px;border:var(--border);border-radius:14px;backface-visibility:hidden;-webkit-backface-visibility:hidden;box-shadow:var(--shadow-sm);font-weight:800;line-height:1.1;text-align:center;font-size:clamp(.85rem,2.8vw,1.2rem)}
+.mcard__back{background:var(--ink);color:var(--green);font-family:var(--font-display);font-size:2rem}
+.mcard__front{background:var(--surface);transform:rotateY(180deg);font-size:clamp(2rem,7vw,3rem)}
+.mcard__front.ru{font-family:var(--font-ru);background:var(--yellow);font-size:clamp(.85rem,2.8vw,1.2rem)}
+.mcard.done .mcard__front{background:var(--green)}
+.mcard.done{animation:bump .4s}
+
+.result__big{font-family:var(--font-display);font-weight:800;font-size:clamp(3.5rem,14vw,7rem);line-height:.9;letter-spacing:-.05em;margin:6px 0}
+.result__msg{font-family:var(--font-ru);font-weight:800;font-size:1.5rem;margin:6px 0 4px}
+.review{margin:18px auto 0;text-align:left;max-width:420px;display:flex;flex-direction:column;gap:6px}
+.review div{padding:6px 12px;border:2px solid var(--ink);border-radius:10px;background:var(--bg);font-family:var(--font-ru);font-weight:600}
+.rules{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:28px;text-align:left}
+.rule{padding:12px 14px;border:2px solid var(--ink);border-radius:14px;background:var(--gc);font-weight:600;font-size:.92rem}
+.rule b{display:block;font-family:var(--font-ru);font-size:1.2rem}
+
+.footer{border-top:var(--border);padding:28px 0;text-align:center;font-weight:600}
+.burst{position:fixed;z-index:99;pointer-events:none;font-size:1.6rem;font-weight:900;animation:fly 1.3s ease-out forwards}
+@keyframes fly{to{transform:translate(var(--dx),var(--dy)) rotate(var(--r));opacity:0}}
+
+@media (max-width:760px){
+  .hero{flex-direction:column;align-items:flex-start;gap:40px;padding:28px 22px}
+  .hero__avatar{width:180px;font-size:6rem}
+  .stage{padding:22px 16px}
+  .choices{grid-template-columns:1fr}
+  .choices--4{grid-template-columns:1fr 1fr}
+  .facts{grid-template-columns:1fr}
+  .mem{gap:8px}
+  .nav{order:3;width:100%}
+}
+
+/* ===== English Gym extras ===== */
+.brand{background:var(--brandc)}
+.xp{background:var(--xpc)}
+.marquee{color:var(--mqc)}
+.hero__avatar{background:linear-gradient(135deg,var(--g1),var(--g2));font-family:var(--font-display);font-size:5.4rem;text-align:center;line-height:.95;letter-spacing:-.04em}
+.hero__title{font-size:clamp(3.4rem,10vw,7.2rem)}
+.hero__sticker2{font-family:var(--font-display)}
+.subhead{font-family:var(--font-display);font-weight:800;font-size:clamp(1.8rem,4.5vw,2.6rem);letter-spacing:-.03em;margin:0 0 12px;line-height:1}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:36px}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:36px}
+.box{padding:22px;border:var(--border);border-radius:22px;background:var(--gc,var(--surface));box-shadow:var(--shadow-lg);margin-bottom:0}
+.box.solo{margin-bottom:36px}
+.box h3{margin:0 0 8px;font-family:var(--font-display);font-weight:800;font-size:1.6rem;letter-spacing:-.02em;line-height:1.05}
+.box p,.box li{font-weight:600}
+.box ul{padding-left:20px;margin:8px 0}
+.box b.k,.k{font-family:var(--font-display);font-weight:800;background:var(--surface);border:2px solid var(--ink);border-radius:8px;padding:0 6px}
+.exl{margin:8px 0;padding:8px 12px;border:2px solid var(--ink);border-radius:12px;background:var(--surface)}
+.exl .en{display:block;font-family:var(--font-display);font-weight:800;font-size:1.12rem;line-height:1.2}
+.exl .en b{background:var(--yellow);border-radius:6px;padding:0 4px}
+.exl .tr{display:block;font-family:var(--font-ru);font-weight:500;font-size:.95rem;color:var(--muted)}
+.notr .tr{display:none!important}
+.p{font-family:var(--font-ru);font-weight:700;color:var(--muted);font-size:.9em}
+.ipa{font-family:'DM Sans','Segoe UI','Arial Unicode MS',sans-serif;font-weight:600;color:var(--muted);font-size:.9em}
+.tablewrap{overflow-x:auto;border:var(--border);border-radius:18px;background:var(--surface);box-shadow:var(--shadow);margin-bottom:36px}
+.tablewrap table{border-collapse:collapse;width:100%;min-width:560px}
+.tablewrap th,.tablewrap td{padding:10px 12px;border-bottom:2px solid var(--ink);border-right:1px solid rgba(0,0,0,.12);text-align:left;vertical-align:top}
+.tablewrap tr:last-child td{border-bottom:0}
+.tablewrap th{background:var(--yellow);font-family:var(--font-display);font-size:.95rem}
+.tablewrap td{font-family:var(--font-display);font-weight:800;font-size:1.05rem}
+.tablewrap td .tr,.tablewrap td.ru{font-family:var(--font-ru);font-weight:500;font-size:.92rem;color:var(--muted)}
+.tablewrap td .tr{display:block}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:14px;margin-bottom:36px}
+.ccard{padding:14px;border:var(--border);border-radius:18px;background:var(--gc,var(--surface));box-shadow:var(--shadow-sm);text-align:center}
+.ccard:nth-child(odd){transform:rotate(-1deg)}.ccard:nth-child(even){transform:rotate(1deg)}
+.ccard .big{display:block;font-family:var(--font-display);font-weight:800;font-size:2.2rem;line-height:1}
+.ccard .e{font-size:2rem;line-height:1}
+.ccard .tr{display:block;font-family:var(--font-ru);font-weight:600;font-size:.9rem;margin-top:4px}
+.ccard .p{display:block}
+.trbtn{padding:5px 12px;border:var(--border);border-radius:999px;background:var(--surface);font-family:var(--font-display);font-weight:800;cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+.trbtn.off{background:var(--ink);color:var(--bg)}
+.sentence{font-family:var(--font-display);font-weight:800;letter-spacing:-.01em}
+.choice{font-family:var(--font-display)}
+.choices--3{grid-template-columns:repeat(3,1fr)}
+.choice.wide{font-size:1.05rem}
+.stage .tr{font-family:var(--font-ru);font-weight:600;color:var(--muted);margin:0 0 18px}
+.visual{font-size:clamp(3rem,11vw,4.6rem);line-height:1.1;margin-bottom:4px}
+.why{font-family:var(--font-ru)}
+.answer{font-family:var(--font-display)}
+.line,.bank{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;min-height:62px;padding:12px;border-radius:16px}
+.line{border:3px dashed var(--ink);background:var(--bg);margin:14px 0}
+.tok{padding:9px 16px;border:var(--border);border-radius:12px;background:var(--yellow);font-family:var(--font-display);font-weight:800;font-size:1.2rem;cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+.line .tok{background:var(--blue)}
+.line.ok{background:var(--green)}.line.bad{background:#ffd0c6}
+.timer{background:var(--red)!important;color:var(--ink)}
+.tile__ru{font-family:var(--font-display)}
+.tile .tr{font-family:var(--font-ru);font-weight:600;color:var(--ink);font-size:.95rem}
+.topicbar{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.tpill{padding:6px 14px;border:2px solid var(--ink);border-radius:999px;background:var(--c,var(--surface));font-weight:800;cursor:pointer;box-shadow:2px 2px 0 var(--ink)}
+.tpill.is-on{background:var(--ink);color:var(--bg)}
+.dialog{display:flex;flex-direction:column;gap:12px;margin-bottom:36px}
+.bub{max-width:78%;padding:12px 16px;border:var(--border);border-radius:18px;box-shadow:var(--shadow-sm);background:var(--surface)}
+.bub.b{align-self:flex-end;background:var(--blue)}
+.bub.a{background:var(--yellow);align-self:flex-start}
+.bub .who{font-family:var(--font-display);font-weight:800;font-size:.8rem;text-transform:uppercase;letter-spacing:.06em}
+.bub .en{display:block;font-family:var(--font-display);font-weight:800;font-size:1.15rem;line-height:1.2}
+.bub .tr{display:block;font-family:var(--font-ru);font-weight:500;font-size:.95rem}
+.steps{counter-reset:s;display:grid;gap:12px;margin:0 0 36px;padding:0;list-style:none}
+.steps li{counter-increment:s;position:relative;padding:12px 16px 12px 58px;border:var(--border);border-radius:16px;background:var(--surface);box-shadow:var(--shadow-sm);font-weight:600}
+.steps li::before{content:counter(s);position:absolute;left:12px;top:10px;width:32px;height:32px;display:grid;place-items:center;border:2px solid var(--ink);border-radius:50%;background:var(--pink);font-family:var(--font-display);font-weight:800}
+.bigrow{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0}
+.bigrow span{padding:6px 14px;border:2px solid var(--ink);border-radius:12px;background:var(--surface);font-family:var(--font-display);font-weight:800;font-size:1.2rem;box-shadow:2px 2px 0 var(--ink)}
+@media (max-width:760px){.duo,.trio{grid-template-columns:1fr}.choices--3{grid-template-columns:1fr}.bub{max-width:92%}}
+.snd{display:inline-grid;place-items:center;width:44px;height:44px;border:var(--border);border-radius:50%;background:var(--yellow);box-shadow:3px 3px 0 var(--ink);font-size:1.2rem;cursor:pointer;flex:none;padding:0;transition:transform .1s}
+.snd:hover{transform:translate(-1px,-1px)}.snd:active{transform:translate(2px,2px);box-shadow:none}
+.snd.sm{width:36px;height:36px;font-size:1rem;box-shadow:2px 2px 0 var(--ink)}
+.snd.lg{width:58px;height:58px;font-size:1.6rem;margin-left:auto}
+.snd.playing{background:var(--green)}
+.nosnd .snd{display:none!important}
+
+.trial{background:linear-gradient(135deg,var(--pink),var(--blue));border:var(--border);border-radius:28px;box-shadow:var(--shadow);padding:30px clamp(20px,3vw,34px);display:grid;grid-template-columns:1.3fr 1fr;gap:30px;align-items:center}
+.trial h2{font-family:var(--font-display);font-size:clamp(2rem,5.5vw,3.4rem);letter-spacing:-.04em;line-height:1.02;margin:14px 0 0}
+.trial p{font-size:1.1rem;font-weight:500;margin:14px 0}
+.trial ul{list-style:none;padding:0;margin:0 0 20px;display:grid;gap:8px}
+.trial li{background:var(--surface);border:2.5px solid var(--ink);border-radius:12px;padding:6px 12px;font-weight:700;box-shadow:3px 3px 0 var(--ink)}
+.trial li::before{content:"✓ ";color:#2e9a12}
+.trial .hero__chip{background:var(--surface)}
+.ig{background:var(--surface);border:var(--border);border-radius:24px;box-shadow:var(--shadow);padding:22px;text-align:center;transform:rotate(2deg)}
+.ig__ava{width:96px;height:96px;margin:0 auto 10px;border-radius:50%;border:var(--border);background:linear-gradient(135deg,var(--pink),var(--blue));display:grid;place-items:center;box-shadow:var(--shadow-sm)}
+.ig__ava svg{width:42%}
+.ig__handle{font-family:var(--font-display);font-weight:800;font-size:1.75rem}
+.ig__name{font-weight:700}
+.ig__bio{color:var(--muted);font-size:.95rem;margin:8px 0 16px}
+.ig .btn{width:100%;justify-content:center}
+.ig__small{font-size:.8rem;color:var(--muted);margin-top:10px}
+.nav__link--promo{background:var(--pink);border-color:var(--ink)}
+@media(max-width:820px){.trial{grid-template-columns:1fr}.ig{transform:none}}
+
+.header{position:static}
+
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="#home" id="brand"></a>
+    <nav class="nav" id="nav"></nav>
+    <div class="header__tools"><button class="trbtn" id="trBtn" title="Показать или скрыть перевод">Перевод ✓</button><span class="xp" id="xp">★ 0 XP</span></div>
+  </div>
+</header>
+<main id="view"></main>
+<footer class="footer"><div class="container" id="foot"></div></footer>
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal__box" role="dialog" aria-modal="true">
+    <button class="icon-btn modal__close" id="modalClose" aria-label="Закрыть">✕</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+<script>
+/* ============ SITE DATA ============ */
+const ex=(en,ru)=>`<div class="exl"><span class="en">${en}</span><span class="tr">${ru}</span></div>`;
+const exs=a=>a.map(([e,r])=>ex(e,r)).join('');
+/* ============ HELPERS ============ */
+const $=(s,el=document)=>el.querySelector(s);
+const $$=(s,el=document)=>[...el.querySelectorAll(s)];
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a};
+const pick=a=>a[Math.random()*a.length|0];
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm=s=>String(s).toLowerCase().replace(/[’‘`´]/g,"'").replace(/\s+/g,' ').replace(/\s*([?.!,])\s*$/,'$1').trim();
+const store={get(k,d){try{const v=localStorage.getItem(SITE.key+'_'+k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(SITE.key+'_'+k,JSON.stringify(v))}catch(e){}}};
+function addXP(n){xp+=n;store.set('xp',xp);const el=$('#xp');el.textContent='★ '+xp+' XP';el.classList.remove('bump');void el.offsetWidth;el.classList.add('bump');}
+function burst(){
+  const cols=['#fe98c0','#80eb3d','#3dd0eb','#eb583d','#ffe14d'];
+  for(let i=0;i<26;i++){const s=document.createElement('span');s.className='burst';s.textContent=pick(['✦','★','●','✸']);
+    s.style.left=(innerWidth/2)+'px';s.style.top=(innerHeight/2)+'px';s.style.color=pick(cols);
+    s.style.setProperty('--dx',(Math.random()*700-350)+'px');s.style.setProperty('--dy',(Math.random()*600-380)+'px');s.style.setProperty('--r',(Math.random()*720-360)+'deg');
+    document.body.appendChild(s);setTimeout(()=>s.remove(),1400);}
+}
+const resultMsg=r=>r>=.9?'Отлично! Excellent!':r>=.7?'Хорошо! Good job!':r>=.4?'Неплохо! Not bad!':'Попробуй ещё раз!';
+function results(el,score,total,review,again){
+  const r=score/total;if(r>=.7)burst();addXP(score);
+  el.innerHTML=`<div class="stage stage--pink"><p class="result__msg">${resultMsg(r)}</p><div class="result__big">${score}/${total}</div>
+    ${review.length?`<p><b>Повтори это:</b></p><div class="review">${review.map(x=>`<div>${x}</div>`).join('')}</div>`:'<p><b>Без единой ошибки!</b></p>'}
+    <div class="actions"><button class="btn btn--ghost" id="again">Новый раунд</button></div></div>`;
+  $('#again').onclick=again;
+}
+const nextBtn=last=>`<div class="actions" id="nextWrap" style="visibility:hidden"><button class="btn btn--green" id="nextBtn">${last?'Результат →':'Дальше →'}</button></div>`;
+const bar=id=>`<div class="game__bar"><div class="progress"><div class="progress__fill" id="${id}Fill"></div></div><span class="score" id="${id}Score"></span></div>`;
+function round({id,total,items,render}){
+  let i=0,score=0,review=[],qs=shuffle(items).slice(0,total);const n=()=>qs.length;
+  const stage=$('#'+id+'Stage');
+  const next=()=>{
+    $('#'+id+'Score').textContent=`${score} / ${n()}`;$('#'+id+'Fill').style.width=(i/n()*100)+'%';
+    if(i>=n()){results(stage,score,n(),review,()=>{i=0;score=0;review=[];qs=shuffle(items).slice(0,total);next();});return;}
+    render(stage,qs[i],i===n()-1,(ok,rev)=>{if(ok)score++;else if(rev)review.push(rev);$('#'+id+'Score').textContent=`${score} / ${n()}`;},()=>{i++;next();});
+  };
+  next();
+}
+let cleanup=null;
+function keys(handler){const k=e=>{if(e.target.tagName==='INPUT'&&e.key!=='Enter')return;handler(e);};document.addEventListener('keydown',k);cleanup=()=>document.removeEventListener('keydown',k);}
+const canSpeak=typeof window!=='undefined'&&'speechSynthesis' in window&&typeof SpeechSynthesisUtterance!=='undefined';
+function speak(t,btn){if(!canSpeak)return;try{const S_=window.speechSynthesis;S_.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='en-GB';u.rate=.85;const vs=S_.getVoices();const v=vs.find(v=>/en[-_]GB/i.test(v.lang))||vs.find(v=>/^en/i.test(v.lang));if(v)u.voice=v;if(btn){btn.classList.add('playing');u.onend=u.onerror=()=>btn.classList.remove('playing');}S_.speak(u);}catch(e){}}
+document.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches&&e.target.matches('span[data-say]')){e.preventDefault();e.stopPropagation();speak(e.target.dataset.say,e.target);}},true);
+document.addEventListener('click',e=>{const b=e.target.closest('[data-say]');if(b){e.preventDefault();e.stopPropagation();speak(b.dataset.say,b);}},true);
+const sayBtn=t=>'';
+const fullSay=(it,ans)=>it.sayAfter||(SITE.speak?(it.q.includes('→')?ans:it.q.includes('___')?it.q.replace('___',ans).replace(/\s+([.,!?])/g,'$1'):null):null);
+const sndSpan=t=>'';
+const fillQ=(q,a,shown)=>esc(q).replace('___',`<span class="blank${shown?' filled':''}" id="blank">${esc(a)}</span>`);
+
+/*TITLE: Detective Gym · Modals of Deduction · B1 English · Boqkova Teach*/
+const DW_RAW={
+feel:`tired|уставший|🥱|She’s yawning. She must be tired.|Она зевает. Она, должно быть, устала.
+hungry|голодный|🍽️|He hasn’t eaten all day. He must be hungry.|Он весь день не ел. Наверняка голоден.
+thirsty|испытывающий жажду|🥤|You ran 10 km. You must be thirsty.|Ты пробежал 10 км. Наверняка хочешь пить.
+bored|скучающий|😑|He’s looking at the ceiling. He might be bored.|Он смотрит в потолок. Может, ему скучно.
+angry|злой|😠|She’s shouting. She must be angry.|Она кричит. Она, должно быть, злится.
+upset|расстроенный|😢|She’s crying. She must be upset.|Она плачет. Должно быть, расстроена.
+happy|счастливый|😊|He’s smiling all day. He must be happy.|Он весь день улыбается. Наверное, счастлив.
+excited|в восторге|🤩|It’s her birthday tomorrow. She must be excited.|Завтра её день рождения. Наверняка в восторге.
+nervous|нервный|😬|He has an exam today. He might be nervous.|У него сегодня экзамен. Может, он нервничает.
+worried|обеспокоенный|😟|Her son is late. She must be worried.|Её сын опаздывает. Наверняка волнуется.
+scared|напуганный|😨|The dog is hiding. It must be scared.|Собака прячется. Наверное, напугана.
+surprised|удивлённый|😮|Her mouth is open. She must be surprised.|У неё открыт рот. Должно быть, удивлена.
+in love|влюблённый|😍|He talks about her all the time. He must be in love!|Он всё время о ней говорит. Наверняка влюблён!
+lonely|одинокий|🥀|He lives alone and has no friends. He might be lonely.|Он живёт один без друзей. Может, ему одиноко.
+proud|гордый|🦚|Her son won the match. She must be proud.|Её сын выиграл матч. Наверняка гордится.
+embarrassed|смущённый|😳|His face is red. He must be embarrassed.|У него красное лицо. Наверное, смущён.
+stressed|в стрессе|🤯|She has three deadlines. She must be stressed.|У неё три дедлайна. Наверняка в стрессе.
+relaxed|расслабленный|😌|He’s lying on the beach. He must be relaxed.|Он лежит на пляже. Наверняка расслаблен.
+jealous|ревнивый, завидующий|😒|She keeps looking at his phone. She might be jealous.|Она всё смотрит в его телефон. Может, ревнует.
+confused|сбитый с толку|😵‍💫|He’s reading the map upside down. He must be confused.|Он читает карту вверх ногами. Наверняка запутался.`,
+body:`ill|больной|🤒|She’s not at work. She might be ill.|Её нет на работе. Может, заболела.
+asleep|спящий|😴|The lights are off. They must be asleep.|Свет выключен. Наверное, спят.
+awake|не спящий|👀|I can hear music. He can’t be asleep — he must be awake.|Я слышу музыку. Он не может спать — наверняка не спит.
+cold|замёрзший|🥶|He’s shaking. He must be cold.|Он дрожит. Должно быть, замёрз.
+hot|горячий; жарко|🥵|You’re wearing a coat in summer! You must be hot.|Ты в пальто летом! Тебе наверняка жарко.
+hurt|ушибленный, раненый|🤕|He fell off his bike. He might be hurt.|Он упал с велосипеда. Может, ушибся.
+pregnant|беременная|🤰|She can’t drink wine — she might be pregnant.|Она не пьёт вино — может, беременна.
+drunk|пьяный|🥴|He can’t walk straight. He must be drunk.|Он не может идти прямо. Наверняка пьян.
+on a diet|на диете|🥗|She only eats salad. She must be on a diet.|Она ест только салат. Наверное, на диете.
+fit|в хорошей форме|💪|He runs every day. He must be fit.|Он бегает каждый день. Наверняка в отличной форме.
+young|молодой|👶|She looks 15. She can’t be a teacher — she’s too young.|Она выглядит на 15. Она не может быть учителем — слишком молода.
+old|старый, пожилой|👴|He was born in 1940. He must be over 80.|Он родился в 1940-м. Ему, должно быть, за 80.
+twins|близнецы|👯|They look the same. They must be twins!|Они одинаковые. Наверняка близнецы!
+allergic|с аллергией|🤧|He’s sneezing near the cat. He might be allergic.|Он чихает рядом с кошкой. Может, у него аллергия.
+sunburnt|обгоревший на солнце|🦞|Your back is red! You must be sunburnt.|У тебя красная спина! Наверное, обгорел.`,
+people:`a doctor|врач|🩺|She’s wearing a white coat. She might be a doctor.|Она в белом халате. Может, она врач.
+a teacher|учитель|👩‍🏫|He’s checking tests. He must be a teacher.|Он проверяет контрольные. Наверняка учитель.
+a tourist|турист|📸|He has a map and a camera. He must be a tourist.|У него карта и фотоаппарат. Наверняка турист.
+a student|студент|🎓|She’s carrying lots of books. She might be a student.|Она несёт много книг. Может, студентка.
+a chef|повар|👨‍🍳|He’s wearing a white hat in the kitchen. He must be a chef.|Он в белом колпаке на кухне. Наверняка повар.
+a police officer|полицейский|👮|She’s wearing a uniform. She might be a police officer.|Она в форме. Может, полицейская.
+famous|знаменитый|⭐|Everyone wants a photo with him. He must be famous!|Все хотят с ним сфотографироваться. Наверняка знаменит!
+rich|богатый|🤑|He has three Ferraris. He must be rich.|У него три «Феррари». Наверняка богат.
+poor|бедный|🪙|She can’t pay the rent. She might be poor.|Она не может заплатить за квартиру. Может, бедная.
+married|женатый, замужем|💍|He’s wearing a ring. He must be married.|Он носит кольцо. Наверное, женат.
+single|не в отношениях|🙋|She’s on a dating app. She must be single.|Она в приложении знакомств. Наверняка одна.
+her sister|её сестра|👭|They have the same eyes. She must be her sister.|У них одинаковые глаза. Должно быть, её сестра.
+his dad|его папа|👨‍👦|He picks him up from school. He might be his dad.|Он забирает его из школы. Может, это его папа.
+a fan|фанат|🏟️|He’s wearing a Real Madrid shirt. He must be a fan.|Он в футболке «Реала». Наверняка фанат.
+a musician|музыкант|🎸|She’s carrying a guitar. She might be a musician.|Она несёт гитару. Может, музыкант.
+a liar|лжец|🤥|His story changes every time. He must be a liar!|Его история всё время меняется. Наверняка врёт!
+a joke|шутка|😂|A cat that speaks English? That must be a joke!|Кошка, которая говорит по-английски? Наверняка шутка!
+true|правда|✅|Everyone says so. It must be true.|Все так говорят. Наверное, правда.
+wrong|неправильно, ошибка|❌|2 + 2 = 5? That can’t be right — it must be wrong.|2 + 2 = 5? Не может быть — наверняка ошибка.
+a mistake|ошибка|🙈|The bill is $500 for one coffee? It must be a mistake!|Счёт 500 долларов за один кофе? Наверняка ошибка!`,
+place:`at home|дома|🏠|His car is outside. He must be at home.|Его машина у дома. Наверное, он дома.
+at work|на работе|💼|It’s 11 am on Monday. She might be at work.|Понедельник, 11 утра. Может, она на работе.
+on holiday|в отпуске|🏖️|Their house is empty for two weeks. They must be on holiday.|Их дом пустует две недели. Наверняка в отпуске.
+abroad|за границей|✈️|Her photos are from Paris. She must be abroad.|У неё фото из Парижа. Наверняка за границей.
+lost|потерявшийся|🗺️|He keeps looking at the map. He must be lost.|Он всё смотрит на карту. Наверняка заблудился.
+in a meeting|на встрече|👥|She isn’t answering. She might be in a meeting.|Она не отвечает. Может, на встрече.
+in the shower|в душе|🚿|I can hear water. He must be in the shower.|Я слышу воду. Наверное, он в душе.
+in the kitchen|на кухне|🍳|It smells of pizza. Mum must be in the kitchen.|Пахнет пиццей. Мама, наверное, на кухне.
+on the way|в пути|🚗|She left an hour ago. She must be on the way.|Она вышла час назад. Наверняка в пути.
+stuck in traffic|в пробке|🚦|He’s late again. He might be stuck in traffic.|Он снова опаздывает. Может, застрял в пробке.
+here|здесь|📍|Her bag is on the chair. She must be here somewhere.|Её сумка на стуле. Она должна быть где-то здесь.
+far away|далеко|🛤️|It takes 10 hours by car. It must be far away.|Ехать 10 часов на машине. Наверное, далеко.
+closed|закрыто|🔒|The lights are off. The shop must be closed.|Свет выключен. Магазин, наверное, закрыт.
+open|открыто|🔓|There are people inside. The café must be open.|Внутри люди. Кафе, наверное, открыто.
+busy|занят; многолюдно|📵|He isn’t answering his phone. He must be busy.|Он не берёт трубку. Наверняка занят.
+empty|пустой|🫙|No one is answering the door. The flat might be empty.|Никто не открывает. Может, в квартире никого нет.
+full|полный|🈵|There’s a long queue. The restaurant must be full.|Длинная очередь. Ресторан, наверное, полный.`,
+things:`expensive|дорогой|💎|It’s a designer bag. It must be expensive.|Это дизайнерская сумка. Наверняка дорогая.
+cheap|дешёвый|🏷️|It’s only $1. It can’t be good quality — it must be cheap.|Всего доллар. Вряд ли качественное — наверняка дешёвка.
+broken|сломанный|💔|The TV won’t turn on. It must be broken.|Телевизор не включается. Наверное, сломался.
+fake|поддельный|🎭|A Rolex for $20? It must be fake!|«Ролекс» за 20 долларов? Наверняка подделка!
+new|новый|✨|It’s still in the box. It must be new.|Он ещё в коробке. Наверняка новый.
+antique|старинный|🏺|It’s from the 1800s. It must be antique.|Это из XIX века. Наверняка антиквариат.
+delicious|вкусный|😋|Everyone is asking for more. It must be delicious!|Все просят добавки. Наверное, очень вкусно!
+dangerous|опасный|⚠️|There’s a big warning sign. It must be dangerous.|Там большой предупреждающий знак. Наверное, опасно.
+easy|лёгкий|✅|Even my little brother can do it. It must be easy.|Даже мой младший брат справляется. Наверное, легко.
+difficult|сложный|🧱|Nobody passed the test. It must be difficult.|Никто не сдал тест. Наверное, сложный.
+his|его|🔑|It has his name on it. It must be his.|На ней его имя. Наверняка его.
+yours|твой|🫵|It isn’t mine. It might be yours.|Это не моё. Может, твоё.
+the wrong number|не тот номер|📞|Nobody called Anna lives here. It must be the wrong number.|Никакая Анна здесь не живёт. Наверное, ошиблись номером.
+the postman|почтальон|📬|Someone’s at the door at 9 am. It might be the postman.|Кто-то в дверь в 9 утра. Может, почтальон.`,
+weather:`raining|идёт дождь|🌧️|Everyone has an umbrella. It must be raining.|У всех зонты. Наверное, идёт дождь.
+snowing|идёт снег|❄️|The cars are white. It must be snowing.|Машины белые. Наверное, идёт снег.
+windy|ветрено|🌬️|The trees are moving. It must be windy.|Деревья качаются. Наверное, ветрено.
+cold outside|холодно на улице|🧣|People are wearing scarves. It must be cold outside.|Люди в шарфах. Наверное, холодно.
+late|поздно|🌙|The streets are empty. It must be late.|Улицы пустые. Наверное, поздно.
+early|рано|🌅|The shops aren’t open yet. It must be early.|Магазины ещё не открыты. Наверное, рано.
+lunchtime|обеденное время|🥪|The canteen is full. It must be lunchtime.|Столовая полная. Наверное, время обеда.
+the weekend|выходные|🎉|Nobody is at the office. It must be the weekend.|В офисе никого. Наверное, выходные.`};
+const DW=[];Object.entries(DW_RAW).forEach(([t,v])=>v.split('\n').forEach(l=>{const [en,ru,e,x1,x2]=l.split('|');DW.push({en,ru,e,t,x:[x1,x2]});}));
+const M3=(rows,o0)=>rows.map(([q,a,tr,why])=>({q,a,tr,why,o:o0||['must','might','can’t'],keep:1}));
+const MAIN=M3([['He’s been working for 12 hours. He ___ be tired.','must','Он работает уже 12 часов. Он, должно быть, устал.','Почти уверен → must'],['She’s only 12. She ___ be a doctor.','can’t','Ей всего 12. Она не может быть врачом.','Уверен, что нет → can’t'],['I’m not sure where Tom is. He ___ be in the garden.','might','Не знаю, где Том. Может, он в саду.','Не уверен → might'],['They have three houses and a yacht. They ___ be rich.','must','У них три дома и яхта. Наверняка богаты.','Почти уверен → must'],['That ___ be Anna. She’s in Paris this week!','can’t','Это не может быть Анна. Она на этой неделе в Париже!','Невозможно → can’t'],['Take an umbrella. It ___ rain later.','might','Возьми зонт. Может, позже пойдёт дождь.','Возможно → might'],['You’ve just eaten a big pizza. You ___ be hungry!','can’t','Ты только что съел большую пиццу. Ты не можешь быть голодным!','Уверен, что нет → can’t'],['The phone is ringing. It ___ be Mum — she always calls at 8.','must','Звонит телефон. Наверняка мама — она всегда звонит в 8.','Почти уверен → must'],['I don’t know his job. He ___ be a teacher.','might','Не знаю, кем он работает. Может, учитель.','Не уверен → might'],['The lights are off and nobody answers. They ___ be at home.','can’t','Свет выключен, никто не отвечает. Их не может быть дома.','Уверен, что нет → can’t'],['She’s wearing a ring. She ___ be married.','must','Она носит кольцо. Наверное, замужем.','Почти уверен → must'],['This bag ___ be yours — or Kate’s. I’m not sure.','might','Эта сумка может быть твоей — или Кейт. Не уверен.','Не уверен → might'],['A Rolex for $20? It ___ be real.','can’t','«Ролекс» за 20 долларов? Не может быть настоящим.','Уверен, что нет → can’t'],['Everyone is wearing shorts. It ___ be hot outside.','must','Все в шортах. Наверное, на улице жарко.','Почти уверен → must'],['Ask Ben. He ___ know the answer.','might','Спроси Бена. Может, он знает ответ.','Возможно → might']]);
+const PERC=MAIN.slice(0,12).map(x=>({q:x.q.replace('___',x.a),a:{must:'почти точно да',might:'может быть',"can’t":'почти точно нет'}[x.a],o:['почти точно да','может быть','почти точно нет'],keep:1,tr:x.tr,why:x.why,wide:1}));
+const NEG=M3([['He looks very young. He ___ be 40!',"can’t",'Он выглядит очень молодо. Ему не может быть 40!','Уверен, что нет → can’t (не mustn’t!)'],['I’m not sure she’ll come. She ___ be free tonight.','might not','Не уверен, что она придёт. Возможно, она не свободна вечером.','Возможно, нет → might not'],['You ___ smoke in the hospital. It’s the rule.','mustn’t','В больнице нельзя курить. Это правило.','Запрет, а не догадка → mustn’t'],['That ___ be true! Cats can’t talk!',"can’t",'Не может быть! Кошки не разговаривают!','Невозможно → can’t'],['Take a sandwich. There ___ be any food on the train.','might not','Возьми бутерброд. В поезде может не быть еды.','Возможно, нет → might not'],['She ___ be Russian — she doesn’t speak a word of Russian.',"can’t",'Она не может быть русской — она не говорит по-русски ни слова.','Уверен, что нет → can’t'],['You ___ tell anyone. It’s a secret!','mustn’t','Никому нельзя говорить. Это секрет!','Запрет → mustn’t'],['He ___ like the gift. I’m not sure it’s his style.','might not','Может, ему не понравится подарок. Не уверен, что это в его стиле.','Возможно, нет → might not'],['The museum ___ be open on Monday — let’s check online.','might not','Возможно, музей в понедельник не работает — давай проверим в интернете.','Возможно, нет → might not'],['It ___ be him. He’s in hospital!',"can’t",'Это не может быть он. Он в больнице!','Невозможно → can’t'],['You ___ forget your passport!','mustn’t','Ни в коем случае не забудь паспорт!','Запрет, приказ → mustn’t'],['This bill ___ be right. We only had two coffees!',"can’t",'Этот счёт не может быть правильным. Мы взяли всего два кофе!','Уверен, что нет → can’t']],["can’t",'might not','mustn’t']);
+const PAST=M3([['Her eyes are red. She ___ cried.','must have','У неё красные глаза. Она, должно быть, плакала.','Почти уверен (прошлое) → must have + V3'],['He passed the exam easily. He ___ studied a lot.','must have','Он легко сдал экзамен. Наверняка много занимался.','Почти уверен → must have'],['She ___ seen me — she was looking the other way.',"can’t have",'Она не могла меня видеть — она смотрела в другую сторону.','Уверен, что нет → can’t have'],['I can’t find my keys. I ___ left them at work.','might have','Не могу найти ключи. Может, оставил на работе.','Не уверен → might have'],['The ground is wet. It ___ rained last night.','must have','Земля мокрая. Ночью, должно быть, шёл дождь.','Почти уверен → must have'],['He ___ eaten the cake — he was with me all day!',"can’t have",'Он не мог съесть торт — он весь день был со мной!','Уверен, что нет → can’t have'],['Why is she late? She ___ missed the bus.','might have','Почему она опаздывает? Может, опоздала на автобус.','Не уверен → might have'],['They ___ gone on holiday — their house is empty for two weeks.','must have','Они, должно быть, уехали в отпуск — их дом пустует две недели.','Почти уверен → must have'],['You ___ finished already! You started five minutes ago.',"can’t have",'Не может быть, что ты уже закончил! Ты начал пять минут назад.','Уверен, что нет → can’t have'],['I’m not sure who called. It ___ been Tom.','might have','Не знаю, кто звонил. Может, Том.','Не уверен → might have'],['The window is broken. Someone ___ thrown a ball.','must have','Окно разбито. Кто-то, наверное, бросил мяч.','Почти уверен → must have'],['She ___ forgotten — I reminded her this morning!',"can’t have",'Она не могла забыть — я напомнил ей утром!','Уверен, что нет → can’t have']],['must have','might have',"can’t have"]);
+const CONT=[['Listen! Someone ___ in the bathroom.',['must be singing','must sing','must sang']],['He isn’t answering. He ___ a shower.',['might be having','might have','might has']],['She ___ — she’s at the cinema!',['can’t be working','can’t work','can’t worked']],['Don’t call now. They ___ dinner.',['might be having','might have had','might having']],['Look at his bag! He ___ somewhere.',['must be travelling','must travel','must travelled']],['The baby is quiet. She ___.',['must be sleeping','must sleep','must slept']],['They ___ football — it’s raining heavily!',['can’t be playing','can’t play','can’t played']],['Where’s Dad? — He ___ in the garden.',['might be working','might work','might worked']]].map(([q,o])=>({q,a:o[0],o,keep:1,wide:1,why:'Сейчас, в процессе → must / might / can’t + be + -ing'}));
+const CLUE=[['😴 The lights are off at 2 am.',['They must be asleep.','They can’t be asleep.','They might be at work.']],['🧳 Their house has been empty for two weeks.',['They must be on holiday.','They can’t be on holiday.','They must be at home.']],['🤒 Mia isn’t at school today.',['She might be ill.','She must be at school.','She can’t be ill.']],['👶 He looks about 15.',['He can’t be a pilot.','He must be a pilot.','He must be 40.']],['🌂 Everyone is carrying an umbrella.',['It must be raining.','It can’t be raining.','It must be hot.']],['🍕 It smells of pizza in the flat.',['Someone must be cooking.','Nobody can be cooking.','It can’t be pizza.']],['📱 Max isn’t answering his phone.',['He might be busy.','He must be on the phone to me.','He can’t be busy.']],['💍 She’s wearing a wedding ring.',['She must be married.','She can’t be married.','She must be single.']],['🗺️ The tourist keeps looking at his map.',['He must be lost.','He can’t be lost.','He must live here.']],['🏆 She won every race this year.',['She must be very fit.','She can’t be fit.','She might be slow.']],['💸 A Ferrari for $500?',['It can’t be real.','It must be real.','It must be expensive.']],['😢 Her eyes are red.',['She must have cried.','She can’t have cried.','She must be happy.']]].map(([q,o])=>({q,a:o[0],o,keep:1,wide:1,why:'Правильно: '+o[0]}));
+const TYP=[['She’s yawning. She ___ be tired. (уверен, что да)','must'],['He’s only 10. He ___ be a doctor. (уверен, что нет)',['can’t','cannot']],['I’m not sure. It ___ rain. (может быть)',['might','may','could']],['They have five cars. They ___ be rich. (уверен, что да)','must'],['That ___ be Tom — he’s in Spain! (уверен, что нет)',['can’t','cannot']],['Ask Anna. She ___ know. (может быть)',['might','may','could']],['The ground is wet. It ___ rained. (уверен, что да)','must have'],['She ___ seen me — her eyes were closed. (уверен, что нет)',['can’t have','cannot have','couldn’t have']],['I ___ left my phone in the taxi. (может быть)',['might have','may have','could have']],['Listen! Someone ___ singing. (уверен, что да)','must be'],['He ___ come — he’s very busy. (может, нет)',['might not','may not']],['You ___ be serious! (не может быть)',['can’t','cannot']]].map(([q,a])=>({q,a:Array.isArray(a)?a:[a],why:'Правильно: '+(Array.isArray(a)?a[0]:a)}));
+const OOPS=[['He mustn’t be at home. The lights are off.','mustn’t','Его не может быть дома. Свет выключен.','Уверен, что нет → can’t, не mustn’t.'],['She must to be tired.','to','Она, должно быть, устала.','После must нет to: must be.'],['It might rains later.','rains','Может, позже пойдёт дождь.','После might — первая форма: might rain.'],['He can’t is a teacher, he’s 12.','is','Он не может быть учителем, ему 12.','can’t + be: He can’t be a teacher.'],['She must has left already.','has','Она, наверное, уже ушла.','must have left.'],['They must be play football.','play','Они, наверное, играют в футбол.','must be + -ing: must be playing.'],['It can’t be rain — the sky is blue.','rain','Не может быть дождя — небо голубое.','can’t be raining.'],['He might not to come.','to','Может, он не придёт.','might not come.'],['You must have saw it!','saw','Ты, наверное, это видел!','must have + V3: seen.'],['She can’t has done it.','has','Она не могла этого сделать.','can’t have done.'],['It musts be true.','musts','Наверное, это правда.','У must нет -s: It must be.'],['He couldn’t be at work today, he’s ill. He’s definitely at home.','couldn’t','Он не может быть сегодня на работе, он болен.','Про сейчас — can’t be.']].map(([q,a,tr,why])=>({q,a,tr,why,cue:'Где ошибка?',keep:1,o:[...new Set(q.replace(/[.,?!]/g,'').split(' '))]}));
+const SITE={
+ key:'ended', brand:'Detective Gym ✦', footer:'You must be a great detective! ✦ Ты, наверное, отличный детектив!',
+ colors:{brandc:'#b9a1ff',xpc:'#ffd23f',mqc:'#b9a1ff',g1:'#b9a1ff',g2:'#3dd0eb'},
+ hero:{avatar:'🕵️',avStyle:'font-size:8rem',sticker2:'It must be true! 🔍',sticker:'B1 ✦ English',title:'It must be him!',
+   lead:'Как делать выводы и догадки по-английски: <b>must</b> — наверняка, <b>might / may / could</b> — может быть, <b>can’t</b> — не может быть. Плюс то же самое о прошлом. <i>She’s yawning. She must be tired.</i>',
+   chips:[['must · might · can’t','var(--pink)'],['5 уроков'],[`${DW.length} слов-улик`,'var(--yellow)'],['11 игр','var(--green)']]},
+ marquee:['It must be true','He might be ill','That can’t be right!','She may be at work','It could be Tom','They must have left','He can’t have seen it','You must be joking!','Someone must be singing'],
+ modesLead:'Пять уроков, слова для догадок и одиннадцать игр. Включай детектива!',
+ lessons:[
+  {id:'scale',nav:'Насколько уверен',e:'📊',c:'var(--yellow)',t:'Шкала уверенности',practice:'percgame',
+   sum:'must — 95%, might — 50%, can’t — 0%.',
+   lead:'Модальные глаголы помогают не только говорить, что <b>нужно</b> или <b>можно</b>, но и <b>делать выводы</b>: насколько мы уверены, что что-то правда. Как Шерлок Холмс 🕵️',
+   body:()=>`<div class="tablewrap"><table><tr><th>уверенность</th><th>глагол</th><th>пример</th></tr>
+    <tr><td style="font-size:1.3rem">✅ 95%</td><td><b>must</b></td><td>He <b>must</b> be at home.<span class="tr">Он, должно быть (наверняка), дома.</span></td></tr>
+    <tr><td style="font-size:1.3rem">🤷 50%</td><td><b>might / may / could</b></td><td>He <b>might</b> be at home.<span class="tr">Может быть, он дома.</span></td></tr>
+    <tr><td style="font-size:1.3rem">❌ 5%</td><td><b>can’t</b></td><td>He <b>can’t</b> be at home.<span class="tr">Не может быть, чтобы он был дома.</span></td></tr></table></div>
+   <div class="box solo" style="--gc:var(--blue)"><h3>🔍 Улика → вывод</h3><p>Обычно мы видим <b>улику</b> и делаем <b>вывод</b>:</p>${exs([['His car is outside. → He <b>must</b> be at home.','Его машина у дома. → Он наверняка дома.'],['I’m not sure where he is. → He <b>might</b> be at home.','Не знаю, где он. → Может, дома.'],['I saw him at the airport. → He <b>can’t</b> be at home.','Я видел его в аэропорту. → Его не может быть дома.']])}</div>
+   <div class="box solo" style="--gc:var(--green)"><h3>🧩 Форма</h3><p>модальный глагол + <b>первая форма</b> глагола, без to и без -s: <i>She must <b>be</b>, it might <b>rain</b>, he can’t <b>know</b>.</i></p></div>`},
+  {id:'must',nav:'Наверняка',e:'✅',c:'var(--green)',t:'must: я почти уверен',practice:'mgame',
+   sum:'She must be tired. You must be joking!',
+   lead:'<b>must</b> = «должно быть, наверняка». Мы не знаем точно, но улики говорят: это почти наверняка так.',
+   body:()=>`<div class="box solo" style="--gc:var(--green)"><h3>✅ must + be</h3>${exs([['You’ve walked all day. You <b>must be</b> tired.','Ты гулял весь день. Ты, должно быть, устал.'],['She speaks five languages. She <b>must be</b> clever.','Она говорит на пяти языках. Наверняка умная.'],['You <b>must be</b> joking!','Ты, наверное, шутишь!']])}</div>
+   <div class="box solo" style="--gc:var(--blue)"><h3>🎬 must be + -ing: прямо сейчас</h3>${exs([['Listen! Someone <b>must be singing</b>.','Слушай! Кто-то, наверное, поёт.'],['He’s not answering. He <b>must be sleeping</b>.','Он не отвечает. Наверное, спит.']])}</div>
+   <div class="box solo" style="--gc:var(--red)"><h3>⚠️ must = «должен» или «наверное»?</h3>${exs([['You <b>must</b> wear a helmet.','Ты должен носить шлем. (правило)'],['He <b>must</b> be cold.','Ему, наверное, холодно. (вывод)']])}<p>Смотри на смысл: правило или догадка. С <b>be</b> чаще всего это догадка.</p></div>`},
+  {id:'might',nav:'Может быть',e:'🤷',c:'var(--blue)',t:'might, may, could: может быть',practice:'clues',
+   sum:'It might rain. She may be at work. It could be Tom.',
+   lead:'Когда мы <b>не уверены</b> — 50 на 50 — используем <b>might</b>, <b>may</b> или <b>could</b>. Смысл почти одинаковый: «может быть, возможно».',
+   body:()=>`<div class="duo">
+    <div class="box" style="--gc:var(--blue)"><h3>🤷 Может быть</h3>${exs([['It <b>might</b> rain later.','Позже, может, пойдёт дождь.'],['She <b>may</b> be at work.','Она, возможно, на работе.'],['Who’s at the door? It <b>could</b> be Tom.','Кто там? Может, Том.']])}</div>
+    <div class="box" style="--gc:var(--pink)"><h3>🙅 Может, нет</h3>${exs([['He <b>might not</b> come.','Может, он не придёт.'],['It <b>may not</b> be true.','Возможно, это неправда.']])}<p>⚠️ <b>could not</b> так не используют — оно значит «не может быть» (как can’t).</p></div>
+   </div>
+   <div class="box solo" style="--gc:var(--yellow)"><h3>💡 might или maybe?</h3>${exs([['He <b>might</b> be late. = <b>Maybe</b> he’s late.','Может, он опоздает.']])}<p><b>maybe</b> — наречие, стоит в начале. <b>might</b> — глагол, стоит перед другим глаголом.</p></div>`},
+  {id:'cant',nav:'Не может быть',e:'❌',c:'var(--red)',t:'can’t: не может быть',practice:'negame',
+   sum:'That can’t be true! Не путай с mustn’t.',
+   lead:'Когда мы <b>почти уверены, что нет</b>, используем <b>can’t</b> (или couldn’t). Это противоположность must.',
+   body:()=>`<div class="tablewrap"><table><tr><th>уверен, что да</th><th>уверен, что нет</th></tr>
+    <tr><td>He <b>must</b> be rich.<span class="tr">Он наверняка богат.</span></td><td>He <b>can’t</b> be rich.<span class="tr">Он не может быть богатым.</span></td></tr>
+    <tr><td>It <b>must</b> be Anna.<span class="tr">Это наверняка Анна.</span></td><td>It <b>can’t</b> be Anna.<span class="tr">Это не может быть Анна.</span></td></tr></table></div>
+   <div class="box solo" style="--gc:var(--red)"><h3>⚠️ Главная ловушка: mustn’t</h3><p>Противоположность must-вывода — <b>can’t</b>, а не mustn’t! <b>mustn’t</b> — это запрет.</p>${exs([['He <b>can’t</b> be 40 — he looks 25.','Ему не может быть 40 — он выглядит на 25.'],['You <b>mustn’t</b> smoke here.','Здесь нельзя курить. (запрет)'],['<s>He mustn’t be at home.</s>','так нельзя, если это вывод']])}</div>
+   <div class="box solo" style="--gc:var(--yellow)"><h3>💬 Частые фразы</h3>${exs([['That <b>can’t</b> be true!','Не может быть!'],['You <b>can’t</b> be serious!','Ты не можешь говорить серьёзно!'],['It <b>can’t</b> be that difficult.','Не может быть, чтобы это было так сложно.']])}</div>`},
+  {id:'past',nav:'Догадки о прошлом',e:'⏪',c:'var(--lilac)',t:'must have, might have, can’t have',practice:'pastgame',
+   sum:'She must have left. He can’t have seen it.',
+   lead:'Догадки о <b>прошлом</b>: модальный глагол + <b>have + третья форма</b> (V3).',
+   body:()=>`<div class="tablewrap"><table><tr><th>уверенность</th><th>форма</th><th>пример</th></tr>
+    <tr><td>✅ наверняка</td><td><b>must have</b> + V3</td><td>The ground is wet. It <b>must have rained</b>.<span class="tr">Земля мокрая. Наверное, шёл дождь.</span></td></tr>
+    <tr><td>🤷 может быть</td><td><b>might / may / could have</b> + V3</td><td>I <b>might have left</b> my keys at work.<span class="tr">Может, я оставил ключи на работе.</span></td></tr>
+    <tr><td>❌ не может быть</td><td><b>can’t / couldn’t have</b> + V3</td><td>She <b>can’t have seen</b> me.<span class="tr">Она не могла меня видеть.</span></td></tr></table></div>
+   <div class="box solo" style="--gc:var(--red)"><h3>⚠️ Не путай</h3>${exs([['<s>must have saw</s> → must have <b>seen</b>','после have — третья форма'],['<s>must has</s> → must <b>have</b>','have для всех лиц'],['must have → <b>must’ve</b> /ˈmʌstəv/','в речи звучит как «мастэв»']])}</div>`}
+ ],
+ words:{nav:'Улики',t:`${DW.length} слов для догадок`,e:'📚',sum:'Чувства, здоровье, люди, места, вещи и погода — каждое слово с примером «улика → вывод».',lead:'Нажми на слово, чтобы увидеть пример: улика и вывод с must, might или can’t.',next:'flash',
+  topics:[{k:'feel',ru:'Чувства',e:'😊',c:'var(--pink)'},{k:'body',ru:'Тело и здоровье',e:'🤒',c:'var(--green)'},{k:'people',ru:'Люди',e:'🧑',c:'var(--blue)'},{k:'place',ru:'Где?',e:'📍',c:'var(--yellow)'},{k:'things',ru:'Вещи',e:'💎',c:'var(--lilac)'},{k:'weather',ru:'Погода и время',e:'🌦️',c:'var(--red)'}],list:DW},
+ games:[
+  {id:'mgame',nav:'Выбери глагол',type:'mc',e:'🕵️',c:'var(--green)',t:'must, might или can’t?',sum:'Прочитай улику и сделай вывод.',lead:'Выбери must, might или can’t.',n:15,items:MAIN},
+  {id:'percgame',nav:'Шкала',type:'mc',e:'📊',c:'var(--yellow)',t:'Насколько уверен говорящий?',sum:'Да, может быть или нет?',lead:'Прочитай предложение. Насколько уверен говорящий?',n:12,items:PERC},
+  {id:'clues',nav:'Вывод',type:'mc',e:'🔍',c:'var(--blue)',t:'Улика → вывод',sum:'Посмотри на улику и выбери логичный вывод.',lead:'Выбери самый логичный вывод.',n:12,items:CLUE},
+  {id:'negame',nav:'Отрицание',type:'mc',e:'❌',c:'var(--red)',t:'can’t, might not или mustn’t?',sum:'Отрицание: вывод или запрет?',lead:'Выбери правильное отрицание.',n:12,items:NEG},
+  {id:'contgame',nav:'Прямо сейчас',type:'mc',e:'🎬',c:'var(--pink)',t:'must be + -ing',sum:'Что происходит в эту минуту?',lead:'Выбери правильную форму.',n:8,items:CONT},
+  {id:'pastgame',nav:'Что случилось',type:'mc',e:'⏪',c:'var(--lilac)',t:'must have, might have, can’t have',sum:'Догадки о прошлом.',lead:'Выбери правильную форму.',n:12,items:PAST},
+  {id:'tgame',nav:'Раскрой скобки',type:'type',e:'⌨️',c:'var(--green)',t:'Напиши модальный глагол',sum:'must, might, can’t — пиши сам.',lead:'В скобках — насколько уверен говорящий. Напиши нужный глагол (с have или be, если нужно).',ph:'must',n:12,items:TYP},
+  {id:'oops',nav:'Найди ошибку',type:'mc',e:'🔍',c:'var(--blue)',t:'Найди ошибку',sum:'В каждом предложении одна ошибка. Найди неправильное слово!',lead:'В предложении одна ошибка. Нажми на неправильное слово.',n:12,items:OOPS},
+  {id:'build',nav:'Собери',type:'build',e:'🧱',c:'var(--yellow)',t:'Собери предложение',sum:'Выводы и догадки.',lead:'Нажимай на слова в правильном порядке.',n:8,items:[
+   {en:'She must be tired.',tr:'Она, должно быть, устала.'},{en:'It might rain later.',tr:'Позже, может, пойдёт дождь.'},{en:'That can’t be true!',tr:'Не может быть!'},{en:'He must be at home.',tr:'Он, наверное, дома.'},{en:'You must be joking!',tr:'Ты, наверное, шутишь!'},{en:'They must have left already.',tr:'Они, наверное, уже ушли.'},{en:'She can’t have seen me.',tr:'Она не могла меня видеть.'},{en:'He might not come today.',tr:'Может, он сегодня не придёт.'},{en:'Someone must be cooking.',tr:'Кто-то, наверное, готовит.'},{en:'I might have lost my keys.',tr:'Может, я потерял ключи.'}]},
+  {id:'flash',nav:'Карточки',type:'flash',e:'🃏',c:'var(--pink)',t:'Карточки',sum:'Слова для догадок. Переводи и вспоминай!',lead:'Нажми на карточку (или пробел), чтобы перевернуть. Попробуй режим «русский → English»!'},
+  {id:'rush',nav:'На скорость',type:'rush',from:'mgame',e:'⚡',c:'var(--red)',t:'На скорость: must, might, can’t',sum:'60 секунд детективной работы!',lead:'Ответь на как можно больше вопросов за 60 секунд.'}
+ ]
+};
+SITE.promo={
+ nav:'Пробный урок', handle:'@boqkova', url:'https://www.instagram.com/boqkova/', urlShort:'instagram.com/boqkova',
+ title:'Первый урок — бесплатно 🎁',
+ lead:'Хочешь не просто знать правила, а свободно говорить? Я преподаю <b>английский</b> и <b>русский</b>! Приходи на бесплатный пробный урок. Уроки проходят онлайн, один на один, в удобное для тебя время.',
+ points:['Определим твой уровень','Обсудим цели и составим план','Попробуешь формат урока — с играми, как на этом сайте','Без обязательств'],
+ cta:'Записаться в Instagram →',
+ bio:'Английский и русский онлайн ✦ уроки с играми ✦ пиши в Direct «Хочу пробный урок» 💌',
+ logo:`<svg viewBox="0 0 440 527" aria-hidden="true"><path fill="#0d0d0d" fill-rule="evenodd" d="M0,0 L0,527 L257,527 L258,526 L284,525 L285,524 L292,524 L293,523 L311,521 L346,512 L364,505 L378,498 L396,486 L411,472 L423,456 L431,440 L437,421 L437,416 L439,409 L439,398 L440,397 L440,383 L439,382 L438,363 L431,339 L422,322 L413,310 L401,298 L382,285 L359,275 L336,269 L320,267 L319,266 L312,266 L311,265 L303,265 L302,264 L290,264 L286,262 L286,256 L287,255 L319,251 L347,243 L363,236 L377,227 L388,218 L403,199 L411,182 L416,164 L417,151 L418,150 L418,123 L417,122 L416,109 L411,91 L404,76 L393,60 L372,40 L345,24 L313,12 L282,5 L261,3 L260,2 L236,1 L235,0Z M129,307 L130,306 L223,306 L224,307 L247,308 L266,312 L280,317 L297,328 L304,336 L310,347 L313,361 L313,372 L308,390 L301,400 L286,412 L278,416 L257,422 L242,423 L241,424 L130,424 L129,423Z M129,103 L130,102 L216,102 L217,103 L228,103 L229,104 L236,104 L250,107 L271,116 L283,127 L289,137 L292,147 L293,164 L292,165 L291,175 L287,185 L283,191 L273,201 L262,208 L242,215 L226,217 L225,218 L217,218 L216,219 L130,219 L129,218Z"/></svg>`
+};
+
+let xp=store.get('xp',0);
+
+
+/* ============ MODAL ============ */
+function openModal(html){$('#modalBody').innerHTML=html;$('#modal').classList.add('is-open');$('#modal').setAttribute('aria-hidden','false');}
+function closeModal(){$('#modal').classList.remove('is-open');$('#modal').setAttribute('aria-hidden','true');}
+$('#modalClose').onclick=closeModal;
+$('#modal').addEventListener('click',e=>{if(e.target.id==='modal')closeModal();});
+addEventListener('keydown',e=>{if(e.key==='Escape')closeModal();});
+
+/* ============ ROUTER ============ */
+const VIEWS={};let route='home';
+const LESSONS=SITE.lessons, GAMES=SITE.games;
+const ALL=[...LESSONS,...(SITE.words?[{id:'words',nav:SITE.words.nav||'Слова'}]:[]),...GAMES];
+function go(){
+  if(cleanup){cleanup();cleanup=null;}
+  const h=location.hash.slice(1);route=VIEWS[h]?h:'home';
+  $$('.nav__link').forEach(a=>a.classList.toggle('is-active',a.getAttribute('href')==='#'+route));
+  VIEWS[route]($('#view'));scrollTo(0,0);
+}
+addEventListener('hashchange',go);
+function shell(el,title,sub,inner){el.innerHTML=`<section class="section"><div class="container"><h1 class="heading">${title}</h1><p class="lead">${sub}</p>${inner}</div></section>`;}
+const byId=id=>ALL.find(x=>x.id===id);
+
+/* ============ HOME ============ */
+VIEWS.home=el=>{
+  const H=SITE.hero;
+  const track=`<div class="marquee__track" aria-hidden="true">${SITE.marquee.map(w=>`<span>${esc(w)}</span><span class="marquee__star">✦</span>`).join('')}</div>`;
+  const modes=[...LESSONS.map(l=>({...l,kind:'Открыть'})),...(SITE.words?[{id:'words',e:SITE.words.e||'📚',t:SITE.words.t||'Список слов',sum:SITE.words.sum,c:'var(--yellow)',kind:'Открыть'}]:[]),...GAMES.map(g=>({...g,kind:'Играть'}))];
+  el.innerHTML=`
+  <section class="hero-wrap"><div class="container"><div class="hero">
+    <div class="hero__media">
+      <div class="hero__avatar"${H.avStyle?` style="${H.avStyle}"`:''}>${H.avatar}</div>
+      <span class="hero__sticker2">${H.sticker2}</span>
+      <span class="hero__sticker">${H.sticker||'A1 ✦ English'}</span>
+    </div>
+    <div>
+      <span class="hero__chip">Boqkova Teach</span>
+      <h1 class="hero__title">${H.title}</h1>
+      <p class="hero__lead">${H.lead}</p>
+      <div class="hero__stats">${H.chips.map(([t,c])=>`<span class="chip" style="background:${c||'var(--blue)'}">${t}</span>`).join('')}</div>
+      <div class="actions" style="justify-content:flex-start;margin-top:26px">
+        <a class="btn" href="#${LESSONS[0].id}">Начать урок →</a>
+        <a class="btn btn--ghost" href="#${GAMES[0].id}">Сразу к играм</a>
+      </div>
+    </div>
+  </div></div></section>
+  <div class="marquee">${track}${track}</div>
+  <section class="section"><div class="container">
+    <h2 class="heading">Выбери тренировку</h2>
+    <p class="lead">${SITE.modesLead}</p>
+    <div class="grid">${modes.map((m,i)=>`
+      <a class="mode" href="#${m.id}">
+        <div class="mode__banner" style="--c:${m.c}"><span class="mode__emoji">${m.e}</span><span class="mode__num">${String(i+1).padStart(2,'0')}</span></div>
+        <div class="mode__body"><h3 class="mode__title">${m.t}</h3><p class="mode__sum">${m.sum}</p><span class="mode__go">${m.kind} →</span></div>
+      </a>`).join('')}
+    </div>
+  </div></section>
+  ${SITE.promo?`<section class="section" style="padding-top:0"><div class="container">${promoHTML()}</div></section>`:''}`;
+};
+
+
+const promoHTML=()=>{const P=SITE.promo;return `<div class="trial"><div><span class="hero__chip">Boqkova Teach</span><h2>${P.title}</h2><p>${P.lead}</p><ul>${P.points.map(x=>`<li>${x}</li>`).join('')}</ul><a class="btn" href="${P.url}" target="_blank" rel="noopener" style="background:var(--ink);color:#fff">${P.cta}</a></div>
+<div class="ig"><div class="ig__ava">${P.logo}</div><div class="ig__handle">${P.handle}</div><div class="ig__name">Boqkova Teach</div><div class="ig__bio">${P.bio}</div><a class="btn" href="${P.url}" target="_blank" rel="noopener">Открыть Instagram</a><div class="ig__small">${P.urlShort}</div></div></div>`;};
+if(SITE.promo){VIEWS.teacher=el=>{el.innerHTML=`<section class="section"><div class="container">${promoHTML()}</div></section>`;};}
+/* ============ LESSONS ============ */
+LESSONS.forEach((L,k)=>{
+  VIEWS[L.id]=el=>{
+    const nxt=LESSONS[k+1]||(SITE.words?{id:'words',nav:SITE.words.nav||'Слова'}:null);
+    const pr=L.practice?byId(L.practice):null;
+    shell(el,L.t,L.lead,L.body()+`<div class="actions">${pr?`<a class="btn btn--green" href="#${pr.id}">Практика: ${pr.t} →</a>`:''}${nxt?`<a class="btn btn--ghost" href="#${nxt.id}">Дальше: ${nxt.nav}</a>`:`<a class="btn btn--ghost" href="#${GAMES[0].id}">К играм</a>`}</div>`);
+    if(L.after)L.after(el);
+  };
+});
+
+/* ============ WORD LIST ============ */
+if(SITE.words){
+  const W=SITE.words;
+  VIEWS.words=el=>{
+    let topic='all',q='';
+    shell(el,W.t||'Список слов',W.lead,`
+      <div class="toolbar"><input class="search" id="srch" placeholder="Поиск: English или по-русски…"></div>
+      <div class="topicbar">${[{k:'all',ru:'Все',e:'✦'},...W.topics].map(t=>`<button class="tpill" data-k="${t.k}" style="--c:${t.c||'var(--surface)'}">${t.e} ${t.ru}</button>`).join('')}</div>
+      <div class="ngrid" id="wgrid"></div>
+      <div class="actions" style="margin-top:36px">${W.next?`<a class="btn btn--green" href="#${W.next}">Практика: ${byId(W.next).t} →</a>`:''}</div>`);
+    const draw=()=>{
+      $$('.tpill').forEach(b=>b.classList.toggle('is-on',b.dataset.k===topic));
+      const list=W.list.filter(w=>(topic==='all'||w.t===topic)&&(!q||norm(w.en).includes(q)||w.ru.toLowerCase().includes(q)));
+      $('#wgrid').innerHTML=list.map((w,i)=>{const T=W.topics.find(t=>t.k===w.t)||{};return `<button class="tile" data-i="${W.list.indexOf(w)}" style="--gc:${T.c||'var(--yellow)'}"><span class="tile__e">${w.e||''}</span><span class="tile__ru">${esc(w.en)}</span>${SITE.speak?`<span style="position:absolute;right:10px;top:10px">${sndSpan(w.en)}</span>`:''}${w.p?`<span class="p">[${esc(w.p)}]</span>`:''}${w.ipa?`<span class="ipa">/${esc(w.ipa)}/</span>`:''}<span class="tr">${esc(w.ru)}</span></button>`;}).join('')||'<p class="muted">Ничего не найдено.</p>';
+      $$('#wgrid .tile').forEach(b=>b.onclick=()=>{const w=W.list[+b.dataset.i];const T=W.topics.find(t=>t.k===w.t)||{};
+        openModal(`<div class="detail__head" style="--gc:${T.c||'var(--yellow)'}"><div class="detail__e">${w.e||''}</div><p class="detail__ru" style="font-family:var(--font-display);display:flex;align-items:center;gap:14px;flex-wrap:wrap">${esc(w.en)} ${SITE.speak?sayBtn(w.en):''}</p><p class="detail__en">${w.p?`[${esc(w.p)}] · `:''}${w.ipa?`/${esc(w.ipa)}/ · `:''}${esc(w.ru)}</p></div>
+        <div class="detail__body">${w.x?`<div><p class="label">Пример</p><div style="display:flex;gap:10px;align-items:center"><div style="flex:1">${ex(esc(w.x[0]),esc(w.x[1]))}</div>${SITE.speak?sayBtn(w.x[0]):''}</div></div>`:''}${w.n?`<div class="note">${w.n}</div>`:''}<div><p class="label">Тема</p><span class="chip" style="background:${T.c||'var(--yellow)'}">${T.e||''} ${T.ru||''}</span></div></div>`);});
+    };
+    $$('.tpill').forEach(b=>b.onclick=()=>{topic=b.dataset.k;draw();});
+    $('#srch').oninput=e=>{q=e.target.value.toLowerCase().trim();draw();};
+    draw();
+  };
+}
+
+/* ============ GAME TYPES ============ */
+const GT={};
+GT.mc=(el,G)=>{
+  shell(el,G.t,G.lead+' Клавиши 1–4 тоже работают.',`<div class="game">${bar(G.id)}<div id="${G.id}Stage"></div></div>`);
+  round({id:G.id,total:G.n||10,items:G.items,render:(st,it,last,answer,next)=>{
+    let opts=it.o||G.o;opts=G.keep||it.keep?opts:shuffle(opts);
+    const cols=opts.length===3?'choices--3':opts.length>=4&&!G.wide?'choices--4':'';
+    st.innerHTML=`<div class="stage">
+      ${it.v?`<div class="visual">${it.v}</div>`:''}
+      ${it.cue?`<p class="label">${it.cue}</p>`:''}
+      <p class="sentence">${it.q.includes('___')?fillQ(it.q,it.a):esc(it.q)}</p>
+      ${it.say?`<div style="margin:-2px 0 12px">${sayBtn(it.say)}</div>`:''}
+      ${it.tr?`<p class="tr">${esc(it.tr)}</p>`:''}
+      <div class="choices ${cols}">${opts.map((o,j)=>`<button class="choice${G.wide?' wide':''}" data-o="${esc(o)}">${esc(o)}<small>${j+1}</small></button>`).join('')}</div>
+      <div class="feedback why" id="fb"></div>${nextBtn(last)}</div>`;
+    let done=false;
+    $$('.choice',st).forEach(b=>b.onclick=()=>{
+      if(done)return;done=true;const ok=b.dataset.o===it.a;
+      $$('.choice',st).forEach(x=>{x.disabled=true;if(x.dataset.o===it.a)x.classList.add('ok');});
+      if(!ok)b.classList.add('bad');
+      const bl=$('#blank');if(bl)bl.classList.add('filled');
+      answer(ok,it.q.includes('___')?esc(it.q).replace('___','<b>'+esc(it.a)+'</b>'):`${esc(it.q)} → <b>${esc(it.a)}</b>`);
+      $('#fb').innerHTML=(ok?'✅ ':'❌ ')+(it.why||'')+(fullSay(it,it.a)?' '+sayBtn(fullSay(it,it.a)):'');$('#nextWrap').style.visibility='visible';$('#nextBtn').focus();
+    });
+    $('#nextBtn').onclick=next;
+  }});
+  keys(e=>{const k=+e.key;if(k>=1&&k<=6){const b=$$('.choice')[k-1];if(b&&!b.disabled)b.click();}else if(e.key==='Enter'&&$('#nextWrap')&&$('#nextWrap').style.visibility==='visible'){e.preventDefault();$('#nextBtn').click();}});
+};
+GT.type=(el,G)=>{
+  shell(el,G.t,G.lead+' Нажми Enter, чтобы проверить.',`<div class="game">${bar(G.id)}<div id="${G.id}Stage"></div></div>`);
+  round({id:G.id,total:G.n||10,items:G.items,render:(st,it,last,answer,next)=>{
+    const acc=[].concat(it.a);
+    st.innerHTML=`<div class="stage">
+      ${it.v?`<div class="visual">${it.v}</div>`:''}
+      ${it.cue?`<p class="label">${it.cue}</p>`:''}
+      <p class="sentence">${it.q.includes('___')?fillQ(it.q,acc[0]):esc(it.q)}</p>
+      ${it.say?`<div style="margin:-2px 0 12px">${sayBtn(it.say)}</div>`:''}
+      ${it.tr?`<p class="tr">${esc(it.tr)}</p>`:''}
+      <input class="answer" id="ans" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="${G.ph||'type here'}">
+      <div class="actions"><button class="btn btn--blue" id="chk">Проверить</button><button class="btn btn--ghost btn--sm" id="idk">Не знаю</button></div>
+      <div class="feedback why" id="fb"></div>${nextBtn(last)}</div>`;
+    const inp=$('#ans');inp.focus();let done=false;
+    const finish=(ok,given)=>{done=true;inp.disabled=true;inp.classList.add(ok?'ok':'bad');const bl=$('#blank');if(bl)bl.classList.add('filled');
+      answer(ok,it.q.includes('___')?esc(it.q).replace('___','<b>'+esc(acc[0])+'</b>'):`${esc(it.q)} → <b>${esc(acc[0])}</b>`);
+      $('#fb').innerHTML=(ok?'✅ ':`❌ Правильно: <b>${esc(acc[0])}</b>. `)+(it.why||'')+(fullSay(it,acc[0])?' '+sayBtn(fullSay(it,acc[0])):'');
+      $('#chk').style.display='none';$('#idk').style.display='none';$('#nextWrap').style.visibility='visible';$('#nextBtn').focus();};
+    $('#chk').onclick=()=>{if(done||!inp.value.trim())return;finish(acc.some(a=>norm(a)===norm(inp.value)));};
+    $('#idk').onclick=()=>{if(!done)finish(false);};
+    inp.onkeydown=e=>{if(e.key==='Enter'){e.preventDefault();if(!done)$('#chk').click();else $('#nextBtn').click();}};
+    $('#nextBtn').onclick=next;
+  }});
+  keys(e=>{if(e.key==='Enter'&&e.target.tagName!=='INPUT'&&$('#nextWrap')&&$('#nextWrap').style.visibility==='visible'){e.preventDefault();$('#nextBtn').click();}});
+};
+GT.build=(el,G)=>{
+  shell(el,G.t,G.lead,`<div class="game">${bar(G.id)}<div id="${G.id}Stage"></div></div>`);
+  round({id:G.id,total:G.n||8,items:G.items,render:(st,it,last,answer,next)=>{
+    const toks=it.en.split(' ');let order=shuffle(toks.map((t,i)=>i));
+    if(toks.length>1)while(order.every((v,i)=>toks[v]===toks[i]))order=shuffle(order);
+    let line=[];
+    st.innerHTML=`<div class="stage">
+      ${it.v?`<div class="visual">${it.v}</div>`:''}
+      <p class="label">Собери предложение</p>
+      <p class="sentence" style="font-family:var(--font-ru);font-weight:700;font-size:clamp(1.2rem,4vw,1.6rem)">${esc(it.tr)}</p>
+      <div class="line" id="line"></div><div class="bank" id="bank"></div>
+      <div class="actions"><button class="btn btn--blue" id="chk">Проверить</button><button class="btn btn--ghost btn--sm" id="clr">↺ Сначала</button></div>
+      <div class="feedback why" id="fb"></div>${nextBtn(last)}</div>`;
+    let done=false;
+    const draw=()=>{
+      $('#line').innerHTML=line.map((j,k)=>`<button class="tok" data-k="${k}">${esc(toks[j])}</button>`).join('');
+      $('#bank').innerHTML=order.filter(j=>!line.includes(j)).map(j=>`<button class="tok" data-j="${j}">${esc(toks[j])}</button>`).join('');
+      $$('#bank .tok').forEach(b=>b.onclick=()=>{if(done)return;line.push(+b.dataset.j);draw();});
+      $$('#line .tok').forEach(b=>b.onclick=()=>{if(done)return;line.splice(+b.dataset.k,1);draw();});
+    };
+    draw();
+    $('#clr').onclick=()=>{if(!done){line=[];draw();}};
+    $('#chk').onclick=()=>{if(done||line.length<toks.length)return;done=true;
+      const got=line.map(j=>toks[j]).join(' ');const ok=got===it.en||(it.alt||[]).includes(got);
+      $('#line').classList.add(ok?'ok':'bad');answer(ok,`${esc(it.en)}`);
+      $('#fb').innerHTML=(ok?'✅ '+(it.why||'Верно!'):`❌ Правильно: <b>${esc(it.en)}</b>. ${it.why||''}`)+(SITE.speak?' '+sayBtn(it.en):'');
+      $('#chk').style.display='none';$('#clr').style.display='none';$('#nextWrap').style.visibility='visible';$('#nextBtn').focus();};
+    $('#nextBtn').onclick=next;
+  }});
+  keys(e=>{if(e.key==='Enter'&&$('#nextWrap')&&$('#nextWrap').style.visibility==='visible'){e.preventDefault();$('#nextBtn').click();}});
+};
+GT.memory=(el,G)=>{
+  let cards,open,moves,matched,t0,timer,lock;
+  shell(el,G.t,G.lead,`<div class="game"><div class="game__bar"><span class="score" id="mmMoves">0 ходов</span><span class="score" id="mmTime" style="background:var(--blue)">0:00</span><button class="btn btn--sm btn--ghost" id="mmRe">↻ Новое поле</button></div><div id="mmStage"></div></div>`);
+  const fmt=s=>Math.floor(s/60)+':'+String(s%60).padStart(2,'0');
+  const start=()=>{
+    clearInterval(timer);
+    const ps=shuffle(G.pairs).slice(0,8);
+    cards=shuffle(ps.flatMap((m,k)=>[{k,t:m[0],r:0},{k,t:m[1],r:1}]));
+    open=[];moves=0;matched=0;t0=null;lock=false;
+    $('#mmMoves').textContent='0 ходов';$('#mmTime').textContent='0:00';
+    $('#mmStage').innerHTML=`<div class="mem">${cards.map((c,j)=>`<button class="mcard" data-j="${j}" aria-label="Карточка"><div class="mcard__inner"><div class="mcard__face mcard__back">✦</div><div class="mcard__face mcard__front ${c.r?'ru':'en'}" style="${c.r?'':'background:var(--blue);font-family:var(--font-display);font-size:clamp(.9rem,2.8vw,1.25rem)'}">${esc(c.t)}</div></div></button>`).join('')}</div>`;
+    $$('.mcard').forEach(b=>b.onclick=()=>flip(b));
+  };
+  const flip=b=>{
+    if(lock||b.classList.contains('up'))return;
+    if(!t0){t0=Date.now();timer=setInterval(()=>$('#mmTime').textContent=fmt(Math.floor((Date.now()-t0)/1000)),500);}
+    b.classList.add('up');open.push(b);if(SITE.speak){const c=cards[+b.dataset.j];if(!c.r)speak(c.t);}
+    if(open.length===2){
+      moves++;$('#mmMoves').textContent=moves+' ходов';
+      const [a,d]=open.map(x=>cards[+x.dataset.j]);
+      if(a.k===d.k&&a.r!==d.r){open.forEach(x=>x.classList.add('done'));open=[];matched++;
+        if(matched===cards.length/2){clearInterval(timer);addXP(5);burst();
+          setTimeout(()=>{$('#mmStage').insertAdjacentHTML('beforeend',`<div class="stage stage--pink" style="margin-top:24px"><p class="result__msg">Well done! Молодец!</p><div class="result__big">${moves}</div><p><b>ходов</b> за ${$('#mmTime').textContent}</p><div class="actions"><button class="btn btn--ghost" id="mmAgain">Ещё раз</button></div></div>`);$('#mmAgain').onclick=start;},450);}
+      }else{lock=true;setTimeout(()=>{open.forEach(x=>x.classList.remove('up'));open=[];lock=false;},900);}
+    }
+  };
+  $('#mmRe').onclick=start;cleanup=()=>clearInterval(timer);
+  start();
+};
+GT.flash=(el,G)=>{
+  const src=G.items||SITE.words.list;let deck,i,dir='en',known;
+  shell(el,G.t,G.lead,`<div class="game">
+    <div class="toggle-row"><div class="seg" id="dir"><button data-d="en" class="is-on">English → русский</button><button data-d="ru">русский → English</button></div></div>
+    <div class="game__bar"><div class="progress"><div class="progress__fill" id="fcFill"></div></div><span class="score" id="fcScore"></span></div>
+    <div id="fcStage"></div></div>`);
+  const start=()=>{deck=shuffle(src).slice(0,G.n||15);i=0;known=0;show();};
+  const show=()=>{
+    $('#fcScore').textContent=`${i} / ${deck.length}`;$('#fcFill').style.width=(i/deck.length*100)+'%';
+    if(i>=deck.length){addXP(known);if(known/deck.length>=.7)burst();$('#fcStage').innerHTML=`<div class="stage stage--pink"><p class="result__msg">${resultMsg(known/deck.length)}</p><div class="result__big">${known}/${deck.length}</div><p><b>слов ты уже знаешь</b></p><div class="actions"><button class="btn btn--ghost" id="again">Новая колода</button></div></div>`;$('#again').onclick=start;return;}
+    const w=deck[i];const front=dir==='en'?`<span class="flip__big" style="font-family:var(--font-display)">${esc(w.en)}</span>${SITE.speak?sayBtn(w.say||w.en):''}`:`<span class="flip__big">${esc(w.ru)}</span>`;
+    const back=`<span class="flip__big" style="font-family:var(--font-display)">${esc(w.en)}</span>${SITE.speak?sayBtn(w.say||w.en):''}${w.p?`<span class="p">[${esc(w.p)}]</span>`:''}${w.ipa?`<span class="ipa">/${esc(w.ipa)}/</span>`:''}<span class="mini"><span>${esc(w.ru)}</span></span>${w.x?`<span class="muted" style="font-weight:700;text-align:center">${esc(w.x[0])}</span>`:''}`;
+    $('#fcStage').innerHTML=`<div class="flip" id="card"><div class="flip__inner"><div class="flip__face flip__front" style="--gc:${pick(['var(--pink)','var(--blue)','var(--yellow)','var(--green)','var(--lilac)'])}"><span class="bigemoji" style="font-size:3rem">${w.e||'✦'}</span>${front}<span class="flip__hint">нажми, чтобы перевернуть</span></div><div class="flip__face flip__back">${back}</div></div></div>
+      <div class="actions"><button class="btn btn--red" id="no">Ещё учу 🔁</button><button class="btn btn--green" id="yes">Знаю ✓</button></div>`;
+    $('#card').onclick=e=>{if(e.target.closest('[data-say]'))return;$('#card').classList.toggle('is-flipped');};
+    $('#yes').onclick=()=>{known++;i++;show();};$('#no').onclick=()=>{deck.push(w);i++;show();};
+  };
+  $$('#dir button').forEach(b=>b.onclick=()=>{dir=b.dataset.d;$$('#dir button').forEach(x=>x.classList.toggle('is-on',x===b));start();});
+  keys(e=>{if(e.key===' '){e.preventDefault();const c=$('#card');if(c)c.classList.toggle('is-flipped');}else if(e.key==='ArrowRight'){const y=$('#yes');if(y)y.click();}else if(e.key==='ArrowLeft'){const n=$('#no');if(n)n.click();}});
+  start();
+};
+GT.rush=(el,G)=>{
+  const src=GAMES.find(g=>g.id===G.from);const items=src.items;
+  shell(el,G.t,G.lead,`<div class="game"><div class="game__bar"><span class="score timer" id="rsT">60</span><span class="score" id="rsS">0</span><span class="score" style="background:var(--lilac)" id="rsB">рекорд: ${store.get('best_'+G.id,0)}</span></div><div id="rsStage"></div></div>`);
+  let t,score,timer,run;
+  const intro=()=>{$('#rsStage').innerHTML=`<div class="stage"><div class="visual">⏱️</div><p class="sentence">60 секунд</p><p class="gloss">Отвечай как можно быстрее. Ошибка = −3 секунды.</p><div class="actions"><button class="btn btn--green" id="go">Старт!</button></div></div>`;$('#go').onclick=start;};
+  const start=()=>{t=60;score=0;run=true;$('#rsS').textContent='0';$('#rsT').textContent=60;clearInterval(timer);
+    timer=setInterval(()=>{t--;$('#rsT').textContent=Math.max(0,t);if(t<=0)end();},1000);q();};
+  const end=()=>{if(!run)return;run=false;clearInterval(timer);addXP(score);const best=store.get('best_'+G.id,0);if(score>best){store.set('best_'+G.id,score);burst();}
+    $('#rsB').textContent='рекорд: '+Math.max(best,score);
+    $('#rsStage').innerHTML=`<div class="stage stage--pink"><p class="result__msg">${score>best?'Новый рекорд! New record!':'Время вышло! Time’s up!'}</p><div class="result__big">${score}</div><p><b>правильных ответов</b></p><div class="actions"><button class="btn btn--ghost" id="again">Ещё раз</button></div></div>`;$('#again').onclick=start;};
+  const q=()=>{if(!run)return;const it=pick(items);let opts=it.o||src.o;opts=src.keep||it.keep?opts:shuffle(opts);
+    $('#rsStage').innerHTML=`<div class="stage">${it.v?`<div class="visual">${it.v}</div>`:''}<p class="sentence">${it.q.includes('___')?fillQ(it.q,it.a):esc(it.q)}</p>
+      <div class="choices ${opts.length===3?'choices--3':opts.length>=4?'choices--4':''}">${opts.map((o,j)=>`<button class="choice" data-o="${esc(o)}">${esc(o)}<small>${j+1}</small></button>`).join('')}</div></div>`;
+    $$('#rsStage .choice').forEach(b=>b.onclick=()=>{if(!run)return;const ok=b.dataset.o===it.a;
+      $$('#rsStage .choice').forEach(x=>{x.disabled=true;if(x.dataset.o===it.a)x.classList.add('ok');});
+      if(ok){score++;$('#rsS').textContent=score;}else{b.classList.add('bad');t=Math.max(0,t-3);$('#rsT').textContent=t;}
+      setTimeout(q,ok?280:900);});
+  };
+  keys(e=>{const k=+e.key;if(k>=1&&k<=4){const b=$$('#rsStage .choice')[k-1];if(b&&!b.disabled)b.click();}});
+  const prev=cleanup;cleanup=()=>{clearInterval(timer);run=false;if(prev)prev();};
+  intro();
+};
+GAMES.forEach(G=>{VIEWS[G.id]=el=>GT[G.type](el,G);});
+
+/* ============ INIT ============ */
+const _root=document.documentElement.style;
+Object.entries(SITE.colors).forEach(([k,v])=>_root.setProperty('--'+k,v));
+$('#brand').textContent=SITE.brand;
+$('#nav').innerHTML=[{id:'home',nav:'Главная'},...ALL].map(x=>`<a class="nav__link" href="#${x.id}">${x.nav}</a>`).join('');
+if(SITE.promo)$('#nav').insertAdjacentHTML('beforeend',`<a class="nav__link nav__link--promo" href="#teacher">${SITE.promo.nav}</a>`);
+$('#foot').innerHTML=`Boqkova Teach ✦ ${SITE.brand.replace(' ✦','')} · ${SITE.footer}`;
+if(SITE.promo)$('#foot').insertAdjacentHTML('beforeend',` · <a href="${SITE.promo.url}" target="_blank" rel="noopener">Instagram ${SITE.promo.handle}</a>`);
+$('#xp').textContent='★ '+xp+' XP';
+let trOn=store.get('tr',true);
+const setTr=()=>{document.body.classList.toggle('notr',!trOn);$('#trBtn').classList.toggle('off',!trOn);$('#trBtn').textContent=trOn?'Перевод ✓':'Перевод ✕';};
+$('#trBtn').onclick=()=>{trOn=!trOn;store.set('tr',trOn);setTr();};
+setTr();
+if(!canSpeak)document.body.classList.add('nosnd');
+go();
+</script>
+</body>
+</html>
